@@ -7,3 +7,8 @@ packages:
   gitUrl: https://github.com/staillansag/SttDemoiPaaSProject
   gitUsername: staillansag
   gitBranch: main
+services:
+- serviceName: project.sttdemoipaas.integrations:upsertContact
+  packages:
+  - name: SttDemoiPaaSProject
+    version: "1.0"
