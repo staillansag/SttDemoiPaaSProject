@@ -1,0 +1,9 @@
+version: "1.0"
+info:
+  model: int-scaffold
+packages:
+- name: SttDemoiPaaSProject
+  gitServerName: stt_gh
+  gitUrl: https://github.com/staillansag/SttDemoiPaaSProject
+  gitUsername: staillansag
+  gitBranch: main
