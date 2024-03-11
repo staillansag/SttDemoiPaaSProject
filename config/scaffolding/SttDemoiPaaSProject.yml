@@ -7,8 +7,62 @@ packages:
   gitUrl: https://github.com/staillansag/SttDemoiPaaSProject
   gitUsername: staillansag
   gitBranch: main
+- name: WmJDBCAdapter
+  wpmServer: https://packages.softwareag.com
+  wpmRegistry: softwareag
 services:
 - serviceName: project.sttdemoipaas.integrations:upsertContact
   packages:
   - name: SttDemoiPaaSProject
     version: "1.0"
+- serviceName: project.sttdemoipaas.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:SqlEdgeLocal
+  packages:
+  - name: SttDemoiPaaSProject
+    version: "1.0"
+configurationVariables:
+  ? artConnection.SttDemoiPaaSProject.project.sttdemoipaas.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.SqlEdgeLocal.connectionSettings.databaseName
+  : sandbox
+  ? artConnection.SttDemoiPaaSProject.project.sttdemoipaas.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.SqlEdgeLocal.connectionManagerSettings.heartBeatInterval
+  : "0"
+  ? artConnection.SttDemoiPaaSProject.project.sttdemoipaas.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.SqlEdgeLocal.connectionManagerSettings.minimumPoolSize
+  : "0"
+  ? artConnection.SttDemoiPaaSProject.project.sttdemoipaas.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.SqlEdgeLocal.connectionEnabled
+  : "false"
+  ? artConnection.SttDemoiPaaSProject.project.sttdemoipaas.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.SqlEdgeLocal.connectionSettings.transactionType
+  : LOCAL_TRANSACTION
+  ? artConnection.SttDemoiPaaSProject.project.sttdemoipaas.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.SqlEdgeLocal.connectionSettings.portNumber
+  : "1433"
+  ? artConnection.SttDemoiPaaSProject.project.sttdemoipaas.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.SqlEdgeLocal.connectionSettings.datasourceClass
+  : com.wm.dd.jdbcx.sqlserver.SQLServerDataSource
+  ? artConnection.SttDemoiPaaSProject.project.sttdemoipaas.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.SqlEdgeLocal.connectionManagerSettings.poolable
+  : "false"
+  ? artConnection.SttDemoiPaaSProject.project.sttdemoipaas.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.SqlEdgeLocal.connectionManagerSettings.maximumPoolSize
+  : "10"
+  ? artConnection.SttDemoiPaaSProject.project.sttdemoipaas.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.SqlEdgeLocal.connectionSettings.user
+  : sa
+  ? artConnection.SttDemoiPaaSProject.project.sttdemoipaas.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.SqlEdgeLocal.connectionSettings.otherProperties
+  : loginTimeout=60;
+  ? artConnection.SttDemoiPaaSProject.project.sttdemoipaas.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.SqlEdgeLocal.connectionSettings.trustStore
+  : ""
+  ? artConnection.SttDemoiPaaSProject.project.sttdemoipaas.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.SqlEdgeLocal.connectionSettings.keyStore
+  : ""
+  ? artConnection.SttDemoiPaaSProject.project.sttdemoipaas.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.SqlEdgeLocal.connectionSettings.serverName
+  : sqlserver
+  ? artConnection.SttDemoiPaaSProject.project.sttdemoipaas.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.SqlEdgeLocal.connectionSettings.dbType
+  : MSSQL
+  ? artConnection.SttDemoiPaaSProject.project.sttdemoipaas.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.SqlEdgeLocal.connectionSettings.password
+  : "{AES}M1eQ3ETXUuR98whgOwcRBA=="
+  ? artConnection.SttDemoiPaaSProject.project.sttdemoipaas.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.SqlEdgeLocal.connectionManagerSettings.startupRetryCount
+  : "0"
+  ? artConnection.SttDemoiPaaSProject.project.sttdemoipaas.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.SqlEdgeLocal.connectionManagerSettings.expireTimeout
+  : "1000"
+  ? artConnection.SttDemoiPaaSProject.project.sttdemoipaas.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.SqlEdgeLocal.connectionManagerSettings.startupBackoffSecs
+  : "10"
+  ? artConnection.SttDemoiPaaSProject.project.sttdemoipaas.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.SqlEdgeLocal.connectionManagerSettings.blockingTimeout
+  : "1000"
+  ? artConnection.SttDemoiPaaSProject.project.sttdemoipaas.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.SqlEdgeLocal.connectionSettings.networkProtocol
+  : ""
+  ? artConnection.SttDemoiPaaSProject.project.sttdemoipaas.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.SqlEdgeLocal.connectionSettings.driverType
+  : Progress® DataDirect®
+  ? artConnection.SttDemoiPaaSProject.project.sttdemoipaas.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.SqlEdgeLocal.connectionManagerSettings.poolIncrementSize
+  : "1"
