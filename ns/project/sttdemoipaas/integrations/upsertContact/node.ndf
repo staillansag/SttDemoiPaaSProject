@@ -134,7 +134,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">demouser</value>
-    <value name="lastModifiedDate">1710176299397</value>
+    <value name="lastModifiedDate">1710176470741</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
       <value name="id">55a20ec1decd493e975197413986d9c8</value>
       <value name="group">default</value>
@@ -169,12 +169,12 @@
         <value name="type">Adapters</value>
         <value name="version">1.0</value>
         <record name="connection" javaclass="com.wm.util.Values">
-          <value name="connectionName">SQLEdgeLocalNoTransaction</value>
-          <value name="connectionType">webMethods Adapter for JDBC ExtendedConnection</value>
+          <value name="connectionName">SqlEdgeLocal</value>
+          <value name="connectionType">sagcloud</value>
           <null name="description"/>
         </record>
-        <value name="connectionNSName">project.sttdemoipaas.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:SQLEdgeLocalNoTransaction</value>
-        <value name="connectionType">webMethods Adapter for JDBC ExtendedConnection</value>
+        <value name="connectionNSName">project.sttdemoipaas.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:SqlEdgeLocal</value>
+        <value name="connectionType">sagcloud</value>
         <Boolean name="accountReferenceResolved">true</Boolean>
         <Boolean name="serviceReferenceResolved">true</Boolean>
         <array name="map" type="object" depth="1">
