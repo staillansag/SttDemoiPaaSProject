@@ -82,7 +82,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">demouser</value>
-    <value name="lastModifiedDate">1710232329346</value>
+    <value name="lastModifiedDate">1710232585247</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
       <value name="id">cfafebd5d07541738be9c556911b6bcf</value>
       <value name="group">default</value>
@@ -97,7 +97,115 @@
         <value name="itemType">CONTROLS</value>
         <number name="nodeIndex" type="Long">0</number>
       </record>
-      <null name="/0/0"/>
+      <record name="/0/0" javaclass="com.wm.util.Values">
+        <value name="itemType">APPS</value>
+        <value name="id">com.wm.adapter.wmjdbc.JDBCAdapter</value>
+        <value name="name">Database</value>
+        <value name="providerName">WmJDBCAdapter</value>
+        <record name="operation" javaclass="com.wm.util.Values">
+          <value name="operationName">updateAccount</value>
+          <value name="isCustom">true</value>
+          <value name="operationType">actions</value>
+          <value name="connectionType">sagcloud</value>
+          <value name="projectName">project.sttdemoipaas</value>
+        </record>
+        <value name="appType">predefined</value>
+        <Boolean name="hasAccount">true</Boolean>
+        <Boolean name="allowCustomOperations">true</Boolean>
+        <value name="allowDeleteApplication">false</value>
+        <value name="allowUpdateApplication">false</value>
+        <null name="certified"/>
+        <Boolean name="deprecated">false</Boolean>
+        <value name="description">Database Application enables you to perform database operation</value>
+        <null name="icon"/>
+        <value name="packageName">WmJDBCAdapter</value>
+        <value name="type">Adapters</value>
+        <value name="version">1.0</value>
+        <number name="nodeIndex" type="Long">0</number>
+        <record name="connection" javaclass="com.wm.util.Values">
+          <value name="connectionName">SQLEdgeLocalNoTransaction</value>
+          <value name="connectionType">sagcloud</value>
+          <null name="description"/>
+        </record>
+        <value name="connectionNSName">project.sttdemoipaas.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:SQLEdgeLocalNoTransaction</value>
+        <value name="connectionType">sagcloud</value>
+        <Boolean name="accountReferenceResolved">true</Boolean>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
+        <array name="map" type="object" depth="1">
+        </array>
+        <array name="mapDelete" type="object" depth="1">
+        </array>
+        <array name="transformer" type="object" depth="1">
+        </array>
+        <array name="lookupTransformer" type="object" depth="1">
+        </array>
+        <null name="mapSet"/>
+        <array name="inputMap" type="object" depth="1">
+        </array>
+        <array name="outputMap" type="object" depth="1">
+        </array>
+        <number name="ui_step_index" type="Long">2</number>
+        <null name="outputMapSet"/>
+      </record>
+      <record name="/0/1" javaclass="com.wm.util.Values">
+        <value name="itemType">CONTROLS</value>
+        <value name="name">IF</value>
+        <record name="config" javaclass="com.wm.util.Values">
+          <value name="displayLabel">field_name</value>
+          <value name="toolTipLabel">name</value>
+          <Boolean name="showLeafLabelOnly">true</Boolean>
+          <Boolean name="allowConstantValueInput">true</Boolean>
+          <Boolean name="focusOnLoad">true</Boolean>
+          <Boolean name="specialCharsAllowed">false</Boolean>
+          <Boolean name="resetOnfocusout">true</Boolean>
+          <Boolean name="displayIcon">true</Boolean>
+        </record>
+        <number name="nodeIndex" type="Long">1</number>
+      </record>
+      <record name="/0/1/0" javaclass="com.wm.util.Values">
+        <value name="name">IF</value>
+        <value name="itemType">CONTROLS</value>
+        <number name="nodeIndex" type="Long">0</number>
+      </record>
+      <record name="/0/1/0/0" javaclass="com.wm.util.Values">
+        <value name="itemType">CONTROLS</value>
+        <value name="name">TRANSFORM</value>
+        <number name="ui_step_index" type="Long">4</number>
+        <number name="nodeIndex" type="Long">0</number>
+        <array name="map" type="object" depth="1">
+        </array>
+        <array name="mapSet" type="object" depth="1">
+        </array>
+        <array name="mapDelete" type="object" depth="1">
+        </array>
+        <array name="transformer" type="object" depth="1">
+        </array>
+        <array name="lookupTransformer" type="object" depth="1">
+        </array>
+      </record>
+      <null name="/0/1/0/0/0"/>
+      <record name="/0/1/1" javaclass="com.wm.util.Values">
+        <value name="name">ELSE</value>
+        <value name="itemType">CONTROLS</value>
+        <number name="nodeIndex" type="Long">0</number>
+      </record>
+      <record name="/0/1/1/0" javaclass="com.wm.util.Values">
+        <value name="itemType">CONTROLS</value>
+        <value name="name">TRANSFORM</value>
+        <number name="ui_step_index" type="Long">6</number>
+        <number name="nodeIndex" type="Long">0</number>
+        <array name="map" type="object" depth="1">
+        </array>
+        <array name="mapSet" type="object" depth="1">
+        </array>
+        <array name="mapDelete" type="object" depth="1">
+        </array>
+        <array name="transformer" type="object" depth="1">
+        </array>
+        <array name="lookupTransformer" type="object" depth="1">
+        </array>
+      </record>
+      <null name="/0/1/1/0/0"/>
       <record name="/1" javaclass="com.wm.util.Values">
         <value name="name">CATCH</value>
         <value name="itemType">CONTROLS</value>
@@ -157,6 +265,11 @@
         <null name="mapSet"/>
         <null name="outputMapSet"/>
         <Boolean name="xmlMapsetSupported">true</Boolean>
+      </record>
+      <record name="/1/3" javaclass="com.wm.util.Values">
+        <value name="itemType">CONTROLS</value>
+        <value name="name">THROWERROR</value>
+        <number name="nodeIndex" type="Long">3</number>
       </record>
     </record>
   </record>
