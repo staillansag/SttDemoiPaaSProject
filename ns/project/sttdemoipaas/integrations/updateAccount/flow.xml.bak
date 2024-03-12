@@ -331,21 +331,9 @@
 </MAPCOPY>
 
 <MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/currentPattern;1;0">
-  <DATA ENCODING="XMLValues" I18N="true">
-
-<Values version="2.0">
-  <value name="xml">yyyy-MM-dd'T'HH:mm:ss.SSS'Z'</value>
-</Values>
-</DATA>
 </MAPSET>
 
 <MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/newPattern;1;0">
-  <DATA ENCODING="XMLValues" I18N="true">
-
-<Values version="2.0">
-  <value name="xml">yyyy-MM-dd HH:mm:ss.SSS</value>
-</Values>
-</DATA>
 </MAPSET>
 </MAP>
 
@@ -390,18 +378,6 @@
         <value name="form_qualified">false</value>
         <value name="is_global">false</value>
         <array name="rec_fields" type="record" depth="1">
-          <record javaclass="com.wm.util.Values">
-            <value name="node_type">field</value>
-            <value name="node_subtype">unknown</value>
-            <value name="is_public">false</value>
-            <value name="field_name">id</value>
-            <value name="field_type">string</value>
-            <value name="field_dim">0</value>
-            <value name="field_opt">true</value>
-            <value name="nillable">true</value>
-            <value name="form_qualified">false</value>
-            <value name="is_global">false</value>
-          </record>
           <record javaclass="com.wm.util.Values">
             <value name="node_type">field</value>
             <value name="node_subtype">unknown</value>
@@ -610,18 +586,6 @@
             <value name="node_type">field</value>
             <value name="node_subtype">unknown</value>
             <value name="is_public">false</value>
-            <value name="field_name">creationDateTime</value>
-            <value name="field_type">string</value>
-            <value name="field_dim">0</value>
-            <value name="field_opt">true</value>
-            <value name="nillable">true</value>
-            <value name="form_qualified">false</value>
-            <value name="is_global">false</value>
-          </record>
-          <record javaclass="com.wm.util.Values">
-            <value name="node_type">field</value>
-            <value name="node_subtype">unknown</value>
-            <value name="is_public">false</value>
             <value name="field_name">lastUpdateDateTime</value>
             <value name="field_type">string</value>
             <value name="field_dim">0</value>
@@ -757,9 +721,6 @@
 <MAPCOPY FROM="/account;4;0;project.sttdemoipaas.documenttypes:Account/name;1;0" TO="/updateAccountInput;2;0/name;1;0">
 </MAPCOPY>
 
-<MAPCOPY FROM="/account;4;0;project.sttdemoipaas.documenttypes:Account/id;1;0" TO="/updateAccountInput;2;0/id;1;0">
-</MAPCOPY>
-
 <MAPCOPY FROM="/account;4;0;project.sttdemoipaas.documenttypes:Account/type;1;0" TO="/updateAccountInput;2;0/type;1;0">
 </MAPCOPY>
 
@@ -803,6 +764,12 @@
 </MAPCOPY>
 
 <MAPCOPY FROM="/account;4;0;project.sttdemoipaas.documenttypes:Account/identifierValue;1;0" TO="/updateAccountInput;2;0/identifierValue;1;0">
+</MAPCOPY>
+
+<MAPCOPY FROM="/lastUpdateDateTime;1;0" TO="/updateAccountInput;2;0/lastUpdateDateTime;1;0">
+</MAPCOPY>
+
+<MAPCOPY FROM="/isActiveString;1;0" TO="/updateAccountInput;2;0/isActive;1;0">
 </MAPCOPY>
 </MAP>
 
