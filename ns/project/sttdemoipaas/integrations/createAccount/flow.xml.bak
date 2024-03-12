@@ -363,7 +363,7 @@
 </MAPINVOKE>
 </MAP>
 
-<INVOKE NAME="Invoke predefined:com.wm.adapter.wmjdbc.JDBCAdapter" TIMEOUT="" SERVICE="project.sttdemoipaas.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:insertAccount" VALIDATE-IN="" VALIDATE-OUT="">
+<INVOKE NAME="Invoke predefined:com.wm.adapter.wmjdbc.JDBCAdapter" TIMEOUT="" SERVICE="project.sttdemoipaas.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:insertAccount" VALIDATE-IN="" VALIDATE-OUT="" DISABLED="true">
   <COMMENT></COMMENT>
 
   <!-- nodes -->
