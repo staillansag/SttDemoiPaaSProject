@@ -34,7 +34,7 @@
           <record name="node_hints" javaclass="com.wm.util.Values">
           </record>
           <value name="is_public">false</value>
-          <value name="field_name">isActive</value>
+          <value name="field_name">isDeleted</value>
           <value name="field_type">object</value>
           <value name="field_dim">0</value>
           <value name="wrapper_type">java.lang.Boolean</value>
@@ -171,7 +171,6 @@
           <value name="node_type">record</value>
           <value name="node_subtype">unknown</value>
           <record name="node_hints" javaclass="com.wm.util.Values">
-            <value name="id">3999af10-e051-11ee-b831-29485b13d751</value>
           </record>
           <value name="is_public">false</value>
           <value name="field_name">shippingAddress</value>
@@ -186,7 +185,6 @@
               <value name="node_type">unknown</value>
               <value name="node_subtype">unknown</value>
               <record name="node_hints" javaclass="com.wm.util.Values">
-                <value name="id">3999af10-e051-11ee-b831-29485b13d751/3999af11-e051-11ee-b831-29485b13d751</value>
               </record>
               <value name="is_public">false</value>
               <value name="field_name">street</value>
@@ -201,7 +199,6 @@
               <value name="node_type">unknown</value>
               <value name="node_subtype">unknown</value>
               <record name="node_hints" javaclass="com.wm.util.Values">
-                <value name="id">3999af10-e051-11ee-b831-29485b13d751/3999af12-e051-11ee-b831-29485b13d751</value>
               </record>
               <value name="is_public">false</value>
               <value name="field_name">city</value>
@@ -215,7 +212,6 @@
               <value name="node_type">unknown</value>
               <value name="node_subtype">unknown</value>
               <record name="node_hints" javaclass="com.wm.util.Values">
-                <value name="id">3999af10-e051-11ee-b831-29485b13d751/3999af13-e051-11ee-b831-29485b13d751</value>
               </record>
               <value name="is_public">false</value>
               <value name="field_name">state</value>
@@ -230,7 +226,6 @@
               <value name="node_type">unknown</value>
               <value name="node_subtype">unknown</value>
               <record name="node_hints" javaclass="com.wm.util.Values">
-                <value name="id">3999af10-e051-11ee-b831-29485b13d751/3999af14-e051-11ee-b831-29485b13d751</value>
               </record>
               <value name="is_public">false</value>
               <value name="field_name">postalCode</value>
@@ -245,7 +240,6 @@
               <value name="node_type">unknown</value>
               <value name="node_subtype">unknown</value>
               <record name="node_hints" javaclass="com.wm.util.Values">
-                <value name="id">3999af10-e051-11ee-b831-29485b13d751/3999af15-e051-11ee-b831-29485b13d751</value>
               </record>
               <value name="is_public">false</value>
               <value name="field_name">countryCode</value>
@@ -374,7 +368,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">demouser</value>
-    <value name="lastModifiedDate">1710235262717</value>
+    <value name="lastModifiedDate">1710236161816</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
       <value name="id">55a20ec1decd493e975197413986d9c8</value>
       <value name="group">default</value>
