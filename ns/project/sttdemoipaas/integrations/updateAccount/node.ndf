@@ -379,7 +379,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">demouser</value>
-    <value name="lastModifiedDate">1710236731274</value>
+    <value name="lastModifiedDate">1710237144354</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
       <value name="id">55a20ec1decd493e975197413986d9c8</value>
       <value name="group">default</value>
@@ -395,29 +395,69 @@
         <number name="nodeIndex" type="Long">0</number>
       </record>
       <record name="/0/0" javaclass="com.wm.util.Values">
-        <null name="name"/>
-        <value name="itemType">SERVICES</value>
-        <record name="serviceInfo" javaclass="com.wm.util.Values">
-          <value name="groupDisplayName">String</value>
-          <value name="groupName">string</value>
-          <null name="services"/>
+        <value name="itemType">CONTROLS</value>
+        <value name="name">IF</value>
+        <record name="config" javaclass="com.wm.util.Values">
+          <value name="displayLabel">field_name</value>
+          <value name="toolTipLabel">name</value>
+          <Boolean name="showLeafLabelOnly">true</Boolean>
+          <Boolean name="allowConstantValueInput">true</Boolean>
+          <Boolean name="focusOnLoad">true</Boolean>
+          <Boolean name="specialCharsAllowed">false</Boolean>
+          <Boolean name="resetOnfocusout">true</Boolean>
+          <Boolean name="displayIcon">true</Boolean>
         </record>
-        <record name="serviceName" javaclass="com.wm.util.Values">
-          <value name="displayName">objectToString</value>
-          <value name="serviceName">pub.string:objectToString</value>
-          <value name="transformerSupport">true</value>
-        </record>
-        <number name="ui_step_index" type="Long">2</number>
         <number name="nodeIndex" type="Long">0</number>
-        <null name="mapSet"/>
-        <null name="outputMapSet"/>
-        <Boolean name="serviceReferenceResolved">true</Boolean>
       </record>
+      <record name="/0/0/0" javaclass="com.wm.util.Values">
+        <value name="name">IF</value>
+        <value name="itemType">CONTROLS</value>
+        <number name="nodeIndex" type="Long">0</number>
+      </record>
+      <record name="/0/0/0/0" javaclass="com.wm.util.Values">
+        <value name="itemType">CONTROLS</value>
+        <value name="name">TRANSFORM</value>
+        <number name="ui_step_index" type="Long">4</number>
+        <number name="nodeIndex" type="Long">0</number>
+        <array name="map" type="object" depth="1">
+        </array>
+        <array name="mapSet" type="object" depth="1">
+        </array>
+        <array name="mapDelete" type="object" depth="1">
+        </array>
+        <array name="transformer" type="object" depth="1">
+        </array>
+        <array name="lookupTransformer" type="object" depth="1">
+        </array>
+      </record>
+      <null name="/0/0/0/0/0"/>
+      <record name="/0/0/1" javaclass="com.wm.util.Values">
+        <value name="name">ELSE</value>
+        <value name="itemType">CONTROLS</value>
+        <number name="nodeIndex" type="Long">0</number>
+      </record>
+      <record name="/0/0/1/0" javaclass="com.wm.util.Values">
+        <value name="itemType">CONTROLS</value>
+        <value name="name">TRANSFORM</value>
+        <number name="ui_step_index" type="Long">6</number>
+        <number name="nodeIndex" type="Long">0</number>
+        <array name="map" type="object" depth="1">
+        </array>
+        <array name="mapSet" type="object" depth="1">
+        </array>
+        <array name="mapDelete" type="object" depth="1">
+        </array>
+        <array name="transformer" type="object" depth="1">
+        </array>
+        <array name="lookupTransformer" type="object" depth="1">
+        </array>
+      </record>
+      <null name="/0/0/1/0/0"/>
       <record name="/0/1" javaclass="com.wm.util.Values">
         <value name="itemType">CONTROLS</value>
         <value name="name">TRANSFORM</value>
-        <number name="ui_step_index" type="Long">3</number>
-        <number name="nodeIndex" type="Long">1</number>
+        <number name="ui_step_index" type="Long">6</number>
+        <number name="nodeIndex" type="Long">2</number>
         <array name="map" type="object" depth="1">
         </array>
         <array name="mapSet" type="object" depth="1">
@@ -455,7 +495,7 @@
         </record>
         <null name="outputMapSet"/>
         <null name="mapSet"/>
-        <number name="nodeIndex" type="Long">2</number>
+        <number name="nodeIndex" type="Long">3</number>
         <Boolean name="serviceReferenceResolved">true</Boolean>
       </record>
       <record name="/0/3" javaclass="com.wm.util.Values">
@@ -482,7 +522,7 @@
         <value name="packageName">WmJDBCAdapter</value>
         <value name="type">Adapters</value>
         <value name="version">1.0</value>
-        <number name="nodeIndex" type="Long">3</number>
+        <number name="nodeIndex" type="Long">4</number>
         <record name="connection" javaclass="com.wm.util.Values">
           <value name="connectionName">SQLEdgeLocalNoTransaction</value>
           <value name="connectionType">sagcloud</value>
@@ -505,7 +545,7 @@
         </array>
         <array name="outputMap" type="object" depth="1">
         </array>
-        <number name="ui_step_index" type="Long">5</number>
+        <number name="ui_step_index" type="Long">8</number>
         <null name="outputMapSet"/>
       </record>
       <record name="/0/4" javaclass="com.wm.util.Values">
@@ -521,7 +561,7 @@
           <Boolean name="resetOnfocusout">true</Boolean>
           <Boolean name="displayIcon">true</Boolean>
         </record>
-        <number name="nodeIndex" type="Long">3</number>
+        <number name="nodeIndex" type="Long">5</number>
       </record>
       <record name="/0/4/0" javaclass="com.wm.util.Values">
         <value name="name">IF</value>
@@ -634,6 +674,56 @@
         <value name="itemType">CONTROLS</value>
         <value name="name">THROWERROR</value>
         <number name="nodeIndex" type="Long">3</number>
+      </record>
+      <record name="/2" javaclass="com.wm.util.Values">
+        <value name="itemType">CONTROLS</value>
+        <value name="name">TRANSFORM</value>
+        <number name="ui_step_index" type="Long">18</number>
+        <number name="nodeIndex" type="Long">2</number>
+        <array name="map" type="object" depth="1">
+        </array>
+        <array name="mapSet" type="object" depth="1">
+        </array>
+        <array name="mapDelete" type="object" depth="1">
+        </array>
+        <array name="transformer" type="object" depth="1">
+        </array>
+        <array name="lookupTransformer" type="object" depth="1">
+        </array>
+      </record>
+      <record name="/2/0" javaclass="com.wm.util.Values">
+      </record>
+      <record name="/2/1" javaclass="com.wm.util.Values">
+      </record>
+      <record name="/2/2" javaclass="com.wm.util.Values">
+      </record>
+      <record name="/2/3" javaclass="com.wm.util.Values">
+      </record>
+      <record name="/2/4" javaclass="com.wm.util.Values">
+      </record>
+      <record name="/2/5" javaclass="com.wm.util.Values">
+      </record>
+      <record name="/2/6" javaclass="com.wm.util.Values">
+      </record>
+      <record name="/2/7" javaclass="com.wm.util.Values">
+      </record>
+      <record name="/2/8" javaclass="com.wm.util.Values">
+      </record>
+      <record name="/2/9" javaclass="com.wm.util.Values">
+      </record>
+      <record name="/2/10" javaclass="com.wm.util.Values">
+      </record>
+      <record name="/2/11" javaclass="com.wm.util.Values">
+      </record>
+      <record name="/2/12" javaclass="com.wm.util.Values">
+      </record>
+      <record name="/2/13" javaclass="com.wm.util.Values">
+      </record>
+      <record name="/2/14" javaclass="com.wm.util.Values">
+      </record>
+      <record name="/2/15" javaclass="com.wm.util.Values">
+      </record>
+      <record name="/2/16" javaclass="com.wm.util.Values">
       </record>
     </record>
   </record>
