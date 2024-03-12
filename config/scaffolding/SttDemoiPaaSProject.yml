@@ -43,6 +43,10 @@ services:
   packages:
   - name: WmPublic
     version: 11.0.0.0.741
+- serviceName: pub.flow:getLastFailureCaught
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.741
 configurationVariables:
   ? artConnection.SttDemoiPaaSProject.project.sttdemoipaas.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.SQLEdgeLocalNoTransaction.connectionSettings.otherProperties
   : loginTimeout=60;

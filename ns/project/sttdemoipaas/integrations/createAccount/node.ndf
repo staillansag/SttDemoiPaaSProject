@@ -65,7 +65,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">demouser</value>
-    <value name="lastModifiedDate">1710228624942</value>
+    <value name="lastModifiedDate">1710228769374</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
       <value name="id">55a20ec1decd493e975197413986d9c8</value>
       <value name="group">default</value>
@@ -94,7 +94,7 @@
           <value name="transformerSupport">true</value>
         </record>
         <number name="ui_step_index" type="Long">1</number>
-        <number name="nodeIndex" type="Long">1</number>
+        <number name="nodeIndex" type="Long">0</number>
         <null name="mapSet"/>
         <null name="outputMapSet"/>
       </record>
@@ -102,7 +102,7 @@
         <value name="itemType">CONTROLS</value>
         <value name="name">TRANSFORM</value>
         <number name="ui_step_index" type="Long">2</number>
-        <number name="nodeIndex" type="Long">2</number>
+        <number name="nodeIndex" type="Long">1</number>
         <array name="map" type="object" depth="1">
         </array>
         <array name="mapSet" type="object" depth="1">
@@ -183,7 +183,7 @@
         <value name="connectionType">webMethods Adapter for JDBC ExtendedConnection</value>
         <Boolean name="accountReferenceResolved">true</Boolean>
         <number name="ui_step_index" type="Long">5</number>
-        <number name="nodeIndex" type="Long">3</number>
+        <number name="nodeIndex" type="Long">2</number>
         <Boolean name="xmlMapsetSupported">true</Boolean>
         <null name="outputMapSet"/>
       </record>
@@ -209,8 +209,48 @@
         <number name="nodeIndex" type="Long">0</number>
       </record>
       <record name="/1/1" javaclass="com.wm.util.Values">
-        <value name="itemType">ALL</value>
-        <value name="name">NEW</value>
+        <null name="name"/>
+        <value name="itemType">SERVICES</value>
+        <record name="serviceInfo" javaclass="com.wm.util.Values">
+          <value name="groupDisplayName">JSON</value>
+          <value name="groupName">json</value>
+          <null name="services"/>
+        </record>
+        <record name="serviceName" javaclass="com.wm.util.Values">
+          <value name="displayName">documentToJSONString</value>
+          <value name="serviceName">pub.json:documentToJSONString</value>
+          <value name="transformerSupport">false</value>
+        </record>
+        <number name="ui_step_index" type="Long">7</number>
+        <number name="nodeIndex" type="Long">1</number>
+        <null name="mapSet"/>
+        <null name="outputMapSet"/>
+        <Boolean name="xmlMapsetSupported">true</Boolean>
+      </record>
+      <record name="/1/2" javaclass="com.wm.util.Values">
+        <null name="name"/>
+        <value name="itemType">SERVICES</value>
+        <record name="serviceInfo" javaclass="com.wm.util.Values">
+          <value name="groupDisplayName">Flow</value>
+          <value name="groupName">flow</value>
+          <null name="services"/>
+        </record>
+        <record name="serviceName" javaclass="com.wm.util.Values">
+          <value name="displayName">debugLog</value>
+          <value name="serviceName">pub.flow:debugLog</value>
+          <value name="transformerSupport">false</value>
+        </record>
+        <number name="ui_step_index" type="Long">8</number>
+        <number name="nodeIndex" type="Long">2</number>
+        <null name="mapSet"/>
+        <null name="outputMapSet"/>
+        <Boolean name="xmlMapsetSupported">true</Boolean>
+      </record>
+      <record name="/2" javaclass="com.wm.util.Values">
+        <value name="itemType">CONTROLS</value>
+        <value name="name">TRANSFORM</value>
+        <number name="ui_step_index" type="Long">9</number>
+        <number name="nodeIndex" type="Long">2</number>
       </record>
     </record>
   </record>
