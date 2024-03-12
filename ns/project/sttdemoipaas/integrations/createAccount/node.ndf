@@ -65,7 +65,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">demouser</value>
-    <value name="lastModifiedDate">1710228818307</value>
+    <value name="lastModifiedDate">1710228862480</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
       <value name="id">55a20ec1decd493e975197413986d9c8</value>
       <value name="group">default</value>
@@ -205,8 +205,10 @@
           <value name="serviceName">pub.flow:getLastFailureCaught</value>
           <value name="transformerSupport">false</value>
         </record>
-        <number name="ui_step_index" type="Long">7</number>
+        <number name="ui_step_index" type="Long">6</number>
         <number name="nodeIndex" type="Long">0</number>
+        <null name="mapSet"/>
+        <null name="outputMapSet"/>
       </record>
       <record name="/1/1" javaclass="com.wm.util.Values">
         <null name="name"/>
