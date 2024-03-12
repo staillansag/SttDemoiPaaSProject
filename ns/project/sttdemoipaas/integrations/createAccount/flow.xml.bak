@@ -10,10 +10,6 @@
 
   <!-- nodes -->
 
-<SEQUENCE NAME="NEW" EXIT-ON="FAILURE">
-  <COMMENT></COMMENT>
-</SEQUENCE>
-
 <INVOKE NAME="String" SERVICE="pub.string:objectToString">
   <COMMENT></COMMENT>
 
