@@ -63,12 +63,12 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">demouser</value>
-    <value name="lastModifiedDate">1710226520141</value>
+    <value name="lastModifiedDate">1710226527986</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
-      <value name="id">cfafebd5d07541738be9c556911b6bcf</value>
+      <value name="id">55a20ec1decd493e975197413986d9c8</value>
       <value name="group">default</value>
-      <value name="name">Cloud Runtime</value>
-      <value name="executionPlaneType">cloud</value>
+      <value name="name">FR_STT_DockerHost</value>
+      <value name="executionPlaneType">onprem</value>
     </record>
     <value name="displayName">test</value>
     <value name="description"></value>
