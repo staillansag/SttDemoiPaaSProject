@@ -776,6 +776,9 @@
 <MAPCOPY FROM="/isActiveString;1;0" TO="/insertAccountInput;2;0/isActive;1;0">
 </MAPCOPY>
 
+<MAPCOPY FROM="/creationDateTimeSQL;1;0" TO="/insertAccountInput;2;0/creationDateTime;1;0">
+</MAPCOPY>
+
 <MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/$connectionName;1;0">
   <DATA ENCODING="XMLValues" I18N="true">
 
