@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FLOW VERSION="1.0" CLEANUP="false">
+  <COMMENT></COMMENT>
+
+  <!-- nodes -->
+
+<INVOKE NAME="Invoke predefined:com.wm.adapter.wmjdbc.JDBCAdapter" TIMEOUT="" SERVICE="project.sttdemoipaas.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:insertAccount" VALIDATE-IN="" VALIDATE-OUT="">
+  <COMMENT></COMMENT>
+
+  <!-- nodes -->
+
+<MAP MODE="INPUT">
+  <COMMENT></COMMENT>
+
+  <!-- nodes -->
+
+<MAPCOPY FROM="/account;4;0;project.sttdemoipaas.documenttypes:Account/id;1;0" TO="/insertAccountInput;2;0/id;1;0">
+</MAPCOPY>
+
+<MAPCOPY FROM="/account;4;0;project.sttdemoipaas.documenttypes:Account/isActive;3.1;0" TO="/insertAccountInput;2;0/isActive;1;0">
+</MAPCOPY>
+
+<MAPCOPY FROM="/account;4;0;project.sttdemoipaas.documenttypes:Account/name;1;0" TO="/insertAccountInput;2;0/name;1;0">
+</MAPCOPY>
+
+<MAPCOPY FROM="/account;4;0;project.sttdemoipaas.documenttypes:Account/type;1;0" TO="/insertAccountInput;2;0/type;1;0">
+</MAPCOPY>
+
+<MAPCOPY FROM="/account;4;0;project.sttdemoipaas.documenttypes:Account/description;1;0" TO="/insertAccountInput;2;0/description;1;0">
+</MAPCOPY>
+
+<MAPCOPY FROM="/account;4;0;project.sttdemoipaas.documenttypes:Account/billingAddress;2;0/street;1;0" TO="/insertAccountInput;2;0/billingStreet;1;0">
+</MAPCOPY>
+
+<MAPCOPY FROM="/account;4;0;project.sttdemoipaas.documenttypes:Account/billingAddress;2;0/city;1;0" TO="/insertAccountInput;2;0/billingCity;1;0">
+</MAPCOPY>
+
+<MAPCOPY FROM="/account;4;0;project.sttdemoipaas.documenttypes:Account/billingAddress;2;0/state;1;0" TO="/insertAccountInput;2;0/billingState;1;0">
+</MAPCOPY>
+
+<MAPCOPY FROM="/account;4;0;project.sttdemoipaas.documenttypes:Account/billingAddress;2;0/postalCode;1;0" TO="/insertAccountInput;2;0/billingPostalCode;1;0">
+</MAPCOPY>
+
+<MAPCOPY FROM="/account;4;0;project.sttdemoipaas.documenttypes:Account/billingAddress;2;0/countryCode;1;0" TO="/insertAccountInput;2;0/billingCountryCode;1;0">
+</MAPCOPY>
+
+<MAPCOPY FROM="/account;4;0;project.sttdemoipaas.documenttypes:Account/shippingAddress;2;0/street;1;0" TO="/insertAccountInput;2;0/shippingStreet;1;0">
+</MAPCOPY>
+
+<MAPCOPY FROM="/account;4;0;project.sttdemoipaas.documenttypes:Account/shippingAddress;2;0/city;1;0" TO="/insertAccountInput;2;0/shippingCity;1;0">
+</MAPCOPY>
+
+<MAPCOPY FROM="/account;4;0;project.sttdemoipaas.documenttypes:Account/shippingAddress;2;0/state;1;0" TO="/insertAccountInput;2;0/shippingState;1;0">
+</MAPCOPY>
+
+<MAPCOPY FROM="/account;4;0;project.sttdemoipaas.documenttypes:Account/shippingAddress;2;0/postalCode;1;0" TO="/insertAccountInput;2;0/shippingPostalCode;1;0">
+</MAPCOPY>
+
+<MAPCOPY FROM="/account;4;0;project.sttdemoipaas.documenttypes:Account/shippingAddress;2;0/countryCode;1;0" TO="/insertAccountInput;2;0/shippingCountryCode;1;0">
+</MAPCOPY>
+
+<MAPCOPY FROM="/account;4;0;project.sttdemoipaas.documenttypes:Account/industry;1;0" TO="/insertAccountInput;2;0/industry;1;0">
+</MAPCOPY>
+
+<MAPCOPY FROM="/account;4;0;project.sttdemoipaas.documenttypes:Account/identifierType;1;0" TO="/insertAccountInput;2;0/identifierType;1;0">
+</MAPCOPY>
+
+<MAPCOPY FROM="/account;4;0;project.sttdemoipaas.documenttypes:Account/identifierValue;1;0" TO="/insertAccountInput;2;0/identifierValue;1;0">
+</MAPCOPY>
+
+<MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/$connectionName;1;0">
+  <DATA ENCODING="XMLValues" I18N="true">
+
+<Values version="2.0">
+  <value name="xml">project.sttdemoipaas.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:SQLEdgeLocalNoTransaction</value>
+</Values>
+</DATA>
+</MAPSET>
+</MAP>
+
+<MAP MODE="OUTPUT">
+  <COMMENT></COMMENT>
+</MAP>
+</INVOKE>
+</FLOW>
