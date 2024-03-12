@@ -82,7 +82,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">demouser</value>
-    <value name="lastModifiedDate">1710232585247</value>
+    <value name="lastModifiedDate">1710232618163</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
       <value name="id">cfafebd5d07541738be9c556911b6bcf</value>
       <value name="group">default</value>
@@ -98,6 +98,24 @@
         <number name="nodeIndex" type="Long">0</number>
       </record>
       <record name="/0/0" javaclass="com.wm.util.Values">
+        <null name="name"/>
+        <value name="itemType">SERVICES</value>
+        <record name="serviceInfo" javaclass="com.wm.util.Values">
+          <value name="groupDisplayName">String</value>
+          <value name="groupName">string</value>
+          <null name="services"/>
+        </record>
+        <record name="serviceName" javaclass="com.wm.util.Values">
+          <value name="displayName">objectToString</value>
+          <value name="serviceName">pub.string:objectToString</value>
+          <value name="transformerSupport">true</value>
+        </record>
+        <number name="ui_step_index" type="Long">2</number>
+        <number name="nodeIndex" type="Long">0</number>
+        <null name="mapSet"/>
+        <null name="outputMapSet"/>
+      </record>
+      <record name="/0/1" javaclass="com.wm.util.Values">
         <value name="itemType">APPS</value>
         <value name="id">com.wm.adapter.wmjdbc.JDBCAdapter</value>
         <value name="name">Database</value>
@@ -147,7 +165,7 @@
         <number name="ui_step_index" type="Long">2</number>
         <null name="outputMapSet"/>
       </record>
-      <record name="/0/1" javaclass="com.wm.util.Values">
+      <record name="/0/2" javaclass="com.wm.util.Values">
         <value name="itemType">CONTROLS</value>
         <value name="name">IF</value>
         <record name="config" javaclass="com.wm.util.Values">
@@ -162,12 +180,12 @@
         </record>
         <number name="nodeIndex" type="Long">1</number>
       </record>
-      <record name="/0/1/0" javaclass="com.wm.util.Values">
+      <record name="/0/2/0" javaclass="com.wm.util.Values">
         <value name="name">IF</value>
         <value name="itemType">CONTROLS</value>
         <number name="nodeIndex" type="Long">0</number>
       </record>
-      <record name="/0/1/0/0" javaclass="com.wm.util.Values">
+      <record name="/0/2/0/0" javaclass="com.wm.util.Values">
         <value name="itemType">CONTROLS</value>
         <value name="name">TRANSFORM</value>
         <number name="ui_step_index" type="Long">4</number>
@@ -183,13 +201,13 @@
         <array name="lookupTransformer" type="object" depth="1">
         </array>
       </record>
-      <null name="/0/1/0/0/0"/>
-      <record name="/0/1/1" javaclass="com.wm.util.Values">
+      <null name="/0/2/0/0/0"/>
+      <record name="/0/2/1" javaclass="com.wm.util.Values">
         <value name="name">ELSE</value>
         <value name="itemType">CONTROLS</value>
         <number name="nodeIndex" type="Long">0</number>
       </record>
-      <record name="/0/1/1/0" javaclass="com.wm.util.Values">
+      <record name="/0/2/1/0" javaclass="com.wm.util.Values">
         <value name="itemType">CONTROLS</value>
         <value name="name">TRANSFORM</value>
         <number name="ui_step_index" type="Long">6</number>
@@ -205,7 +223,7 @@
         <array name="lookupTransformer" type="object" depth="1">
         </array>
       </record>
-      <null name="/0/1/1/0/0"/>
+      <null name="/0/2/1/0/0"/>
       <record name="/1" javaclass="com.wm.util.Values">
         <value name="name">CATCH</value>
         <value name="itemType">CONTROLS</value>
