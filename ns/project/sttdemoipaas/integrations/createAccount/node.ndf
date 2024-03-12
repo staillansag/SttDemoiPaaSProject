@@ -65,7 +65,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">demouser</value>
-    <value name="lastModifiedDate">1710227638474</value>
+    <value name="lastModifiedDate">1710227683899</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
       <value name="id">55a20ec1decd493e975197413986d9c8</value>
       <value name="group">default</value>
@@ -116,10 +116,6 @@
           <value name="displayName">dateTimeFormat</value>
           <value name="serviceName">pub.date:dateTimeFormat</value>
           <value name="transformerSupport">true</value>
-        </record>
-        <record name="serviceInfo" javaclass="com.wm.util.Values">
-          <value name="groupName">date</value>
-          <value name="groupDisplayName">Date</value>
         </record>
         <array name="mapSet" type="object" depth="1">
         </array>
