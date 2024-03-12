@@ -82,7 +82,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">demouser</value>
-    <value name="lastModifiedDate">1710232847996</value>
+    <value name="lastModifiedDate">1710233306010</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
       <value name="id">cfafebd5d07541738be9c556911b6bcf</value>
       <value name="group">default</value>
@@ -167,7 +167,7 @@
         <value name="packageName">WmJDBCAdapter</value>
         <value name="type">Adapters</value>
         <value name="version">1.0</value>
-        <number name="nodeIndex" type="Long">0</number>
+        <number name="nodeIndex" type="Long">2</number>
         <record name="connection" javaclass="com.wm.util.Values">
           <value name="connectionName">SQLEdgeLocalNoTransaction</value>
           <value name="connectionType">sagcloud</value>
@@ -190,7 +190,7 @@
         </array>
         <array name="outputMap" type="object" depth="1">
         </array>
-        <number name="ui_step_index" type="Long">2</number>
+        <number name="ui_step_index" type="Long">4</number>
         <null name="outputMapSet"/>
       </record>
       <record name="/0/3" javaclass="com.wm.util.Values">
@@ -206,7 +206,7 @@
           <Boolean name="resetOnfocusout">true</Boolean>
           <Boolean name="displayIcon">true</Boolean>
         </record>
-        <number name="nodeIndex" type="Long">1</number>
+        <number name="nodeIndex" type="Long">3</number>
       </record>
       <record name="/0/3/0" javaclass="com.wm.util.Values">
         <value name="name">IF</value>
