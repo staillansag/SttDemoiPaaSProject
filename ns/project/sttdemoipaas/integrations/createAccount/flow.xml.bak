@@ -79,7 +79,7 @@
         <record name="node_hints" javaclass="com.wm.util.Values">
         </record>
         <value name="is_public">false</value>
-        <value name="field_name">isActive</value>
+        <value name="field_name">isDeleted</value>
         <value name="field_type">object</value>
         <value name="field_dim">0</value>
         <value name="wrapper_type">java.lang.Boolean</value>
@@ -148,7 +148,6 @@
         <value name="node_type">record</value>
         <value name="node_subtype">unknown</value>
         <record name="node_hints" javaclass="com.wm.util.Values">
-          <value name="id">3999af10-e051-11ee-b831-29485b13d751</value>
         </record>
         <value name="is_public">false</value>
         <value name="field_name">shippingAddress</value>
@@ -226,6 +225,18 @@
         <value name="field_name">lastUpdateDateTime</value>
         <value name="field_type">string</value>
         <value name="field_dim">0</value>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">unknown</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">isActive</value>
+        <value name="field_type">object</value>
+        <value name="field_dim">0</value>
+        <value name="wrapper_type">java.lang.Boolean</value>
         <value name="nillable">true</value>
         <value name="form_qualified">false</value>
         <value name="is_global">false</value>
@@ -276,7 +287,7 @@
         <record name="node_hints" javaclass="com.wm.util.Values">
         </record>
         <value name="is_public">false</value>
-        <value name="field_name">isActive</value>
+        <value name="field_name">isDeleted</value>
         <value name="field_type">object</value>
         <value name="field_dim">0</value>
         <value name="wrapper_type">java.lang.Boolean</value>
@@ -345,7 +356,6 @@
         <value name="node_type">record</value>
         <value name="node_subtype">unknown</value>
         <record name="node_hints" javaclass="com.wm.util.Values">
-          <value name="id">3999af10-e051-11ee-b831-29485b13d751</value>
         </record>
         <value name="is_public">false</value>
         <value name="field_name">shippingAddress</value>
@@ -423,6 +433,18 @@
         <value name="field_name">lastUpdateDateTime</value>
         <value name="field_type">string</value>
         <value name="field_dim">0</value>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">unknown</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">isActive</value>
+        <value name="field_type">object</value>
+        <value name="field_dim">0</value>
+        <value name="wrapper_type">java.lang.Boolean</value>
         <value name="nillable">true</value>
         <value name="form_qualified">false</value>
         <value name="is_global">false</value>
@@ -543,7 +565,7 @@
         <record name="node_hints" javaclass="com.wm.util.Values">
         </record>
         <value name="is_public">false</value>
-        <value name="field_name">isActive</value>
+        <value name="field_name">isDeleted</value>
         <value name="field_type">object</value>
         <value name="field_dim">0</value>
         <value name="wrapper_type">java.lang.Boolean</value>
@@ -612,7 +634,6 @@
         <value name="node_type">record</value>
         <value name="node_subtype">unknown</value>
         <record name="node_hints" javaclass="com.wm.util.Values">
-          <value name="id">3999af10-e051-11ee-b831-29485b13d751</value>
         </record>
         <value name="is_public">false</value>
         <value name="field_name">shippingAddress</value>
@@ -690,6 +711,18 @@
         <value name="field_name">lastUpdateDateTime</value>
         <value name="field_type">string</value>
         <value name="field_dim">0</value>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">unknown</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">isActive</value>
+        <value name="field_type">object</value>
+        <value name="field_dim">0</value>
+        <value name="wrapper_type">java.lang.Boolean</value>
         <value name="nillable">true</value>
         <value name="form_qualified">false</value>
         <value name="is_global">false</value>
@@ -764,7 +797,7 @@
         <record name="node_hints" javaclass="com.wm.util.Values">
         </record>
         <value name="is_public">false</value>
-        <value name="field_name">isActive</value>
+        <value name="field_name">isDeleted</value>
         <value name="field_type">object</value>
         <value name="field_dim">0</value>
         <value name="wrapper_type">java.lang.Boolean</value>
@@ -833,7 +866,6 @@
         <value name="node_type">record</value>
         <value name="node_subtype">unknown</value>
         <record name="node_hints" javaclass="com.wm.util.Values">
-          <value name="id">3999af10-e051-11ee-b831-29485b13d751</value>
         </record>
         <value name="is_public">false</value>
         <value name="field_name">shippingAddress</value>
@@ -911,6 +943,18 @@
         <value name="field_name">lastUpdateDateTime</value>
         <value name="field_type">string</value>
         <value name="field_dim">0</value>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">unknown</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">isActive</value>
+        <value name="field_type">object</value>
+        <value name="field_dim">0</value>
+        <value name="wrapper_type">java.lang.Boolean</value>
         <value name="nillable">true</value>
         <value name="form_qualified">false</value>
         <value name="is_global">false</value>
@@ -1376,7 +1420,7 @@
         <record name="node_hints" javaclass="com.wm.util.Values">
         </record>
         <value name="is_public">false</value>
-        <value name="field_name">isActive</value>
+        <value name="field_name">isDeleted</value>
         <value name="field_type">object</value>
         <value name="field_dim">0</value>
         <value name="wrapper_type">java.lang.Boolean</value>
@@ -1513,7 +1557,6 @@
         <value name="node_type">record</value>
         <value name="node_subtype">unknown</value>
         <record name="node_hints" javaclass="com.wm.util.Values">
-          <value name="id">3999af10-e051-11ee-b831-29485b13d751</value>
         </record>
         <value name="is_public">false</value>
         <value name="field_name">shippingAddress</value>
@@ -1528,7 +1571,6 @@
             <value name="node_type">unknown</value>
             <value name="node_subtype">unknown</value>
             <record name="node_hints" javaclass="com.wm.util.Values">
-              <value name="id">3999af10-e051-11ee-b831-29485b13d751/3999af11-e051-11ee-b831-29485b13d751</value>
             </record>
             <value name="is_public">false</value>
             <value name="field_name">street</value>
@@ -1543,7 +1585,6 @@
             <value name="node_type">unknown</value>
             <value name="node_subtype">unknown</value>
             <record name="node_hints" javaclass="com.wm.util.Values">
-              <value name="id">3999af10-e051-11ee-b831-29485b13d751/3999af12-e051-11ee-b831-29485b13d751</value>
             </record>
             <value name="is_public">false</value>
             <value name="field_name">city</value>
@@ -1557,7 +1598,6 @@
             <value name="node_type">unknown</value>
             <value name="node_subtype">unknown</value>
             <record name="node_hints" javaclass="com.wm.util.Values">
-              <value name="id">3999af10-e051-11ee-b831-29485b13d751/3999af13-e051-11ee-b831-29485b13d751</value>
             </record>
             <value name="is_public">false</value>
             <value name="field_name">state</value>
@@ -1572,7 +1612,6 @@
             <value name="node_type">unknown</value>
             <value name="node_subtype">unknown</value>
             <record name="node_hints" javaclass="com.wm.util.Values">
-              <value name="id">3999af10-e051-11ee-b831-29485b13d751/3999af14-e051-11ee-b831-29485b13d751</value>
             </record>
             <value name="is_public">false</value>
             <value name="field_name">postalCode</value>
@@ -1587,7 +1626,6 @@
             <value name="node_type">unknown</value>
             <value name="node_subtype">unknown</value>
             <record name="node_hints" javaclass="com.wm.util.Values">
-              <value name="id">3999af10-e051-11ee-b831-29485b13d751/3999af15-e051-11ee-b831-29485b13d751</value>
             </record>
             <value name="is_public">false</value>
             <value name="field_name">countryCode</value>
@@ -1664,6 +1702,18 @@
         <value name="field_name">lastUpdateDateTime</value>
         <value name="field_type">string</value>
         <value name="field_dim">0</value>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">unknown</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">isActive</value>
+        <value name="field_type">object</value>
+        <value name="field_dim">0</value>
+        <value name="wrapper_type">java.lang.Boolean</value>
         <value name="nillable">true</value>
         <value name="form_qualified">false</value>
         <value name="is_global">false</value>
@@ -1826,7 +1876,7 @@
         <record name="node_hints" javaclass="com.wm.util.Values">
         </record>
         <value name="is_public">false</value>
-        <value name="field_name">isActive</value>
+        <value name="field_name">isDeleted</value>
         <value name="field_type">object</value>
         <value name="field_dim">0</value>
         <value name="wrapper_type">java.lang.Boolean</value>
@@ -1895,7 +1945,6 @@
         <value name="node_type">record</value>
         <value name="node_subtype">unknown</value>
         <record name="node_hints" javaclass="com.wm.util.Values">
-          <value name="id">3999af10-e051-11ee-b831-29485b13d751</value>
         </record>
         <value name="is_public">false</value>
         <value name="field_name">shippingAddress</value>
@@ -1973,6 +2022,18 @@
         <value name="field_name">lastUpdateDateTime</value>
         <value name="field_type">string</value>
         <value name="field_dim">0</value>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">unknown</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">isActive</value>
+        <value name="field_type">object</value>
+        <value name="field_dim">0</value>
+        <value name="wrapper_type">java.lang.Boolean</value>
         <value name="nillable">true</value>
         <value name="form_qualified">false</value>
         <value name="is_global">false</value>
@@ -2408,7 +2469,7 @@
         <record name="node_hints" javaclass="com.wm.util.Values">
         </record>
         <value name="is_public">false</value>
-        <value name="field_name">isActive</value>
+        <value name="field_name">isDeleted</value>
         <value name="field_type">object</value>
         <value name="field_dim">0</value>
         <value name="wrapper_type">java.lang.Boolean</value>
@@ -2477,7 +2538,6 @@
         <value name="node_type">record</value>
         <value name="node_subtype">unknown</value>
         <record name="node_hints" javaclass="com.wm.util.Values">
-          <value name="id">3999af10-e051-11ee-b831-29485b13d751</value>
         </record>
         <value name="is_public">false</value>
         <value name="field_name">shippingAddress</value>
@@ -2555,6 +2615,18 @@
         <value name="field_name">lastUpdateDateTime</value>
         <value name="field_type">string</value>
         <value name="field_dim">0</value>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">unknown</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">isActive</value>
+        <value name="field_type">object</value>
+        <value name="field_dim">0</value>
+        <value name="wrapper_type">java.lang.Boolean</value>
         <value name="nillable">true</value>
         <value name="form_qualified">false</value>
         <value name="is_global">false</value>
@@ -2655,7 +2727,7 @@
         <record name="node_hints" javaclass="com.wm.util.Values">
         </record>
         <value name="is_public">false</value>
-        <value name="field_name">isActive</value>
+        <value name="field_name">isDeleted</value>
         <value name="field_type">object</value>
         <value name="field_dim">0</value>
         <value name="wrapper_type">java.lang.Boolean</value>
@@ -2724,7 +2796,6 @@
         <value name="node_type">record</value>
         <value name="node_subtype">unknown</value>
         <record name="node_hints" javaclass="com.wm.util.Values">
-          <value name="id">3999af10-e051-11ee-b831-29485b13d751</value>
         </record>
         <value name="is_public">false</value>
         <value name="field_name">shippingAddress</value>
@@ -2802,6 +2873,18 @@
         <value name="field_name">lastUpdateDateTime</value>
         <value name="field_type">string</value>
         <value name="field_dim">0</value>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">unknown</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">isActive</value>
+        <value name="field_type">object</value>
+        <value name="field_dim">0</value>
+        <value name="wrapper_type">java.lang.Boolean</value>
         <value name="nillable">true</value>
         <value name="form_qualified">false</value>
         <value name="is_global">false</value>
@@ -2991,7 +3074,7 @@
         <record name="node_hints" javaclass="com.wm.util.Values">
         </record>
         <value name="is_public">false</value>
-        <value name="field_name">isActive</value>
+        <value name="field_name">isDeleted</value>
         <value name="field_type">object</value>
         <value name="field_dim">0</value>
         <value name="wrapper_type">java.lang.Boolean</value>
@@ -3060,7 +3143,6 @@
         <value name="node_type">record</value>
         <value name="node_subtype">unknown</value>
         <record name="node_hints" javaclass="com.wm.util.Values">
-          <value name="id">3999af10-e051-11ee-b831-29485b13d751</value>
         </record>
         <value name="is_public">false</value>
         <value name="field_name">shippingAddress</value>
@@ -3138,6 +3220,18 @@
         <value name="field_name">lastUpdateDateTime</value>
         <value name="field_type">string</value>
         <value name="field_dim">0</value>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">unknown</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">isActive</value>
+        <value name="field_type">object</value>
+        <value name="field_dim">0</value>
+        <value name="wrapper_type">java.lang.Boolean</value>
         <value name="nillable">true</value>
         <value name="form_qualified">false</value>
         <value name="is_global">false</value>
@@ -3210,7 +3304,7 @@
         <record name="node_hints" javaclass="com.wm.util.Values">
         </record>
         <value name="is_public">false</value>
-        <value name="field_name">isActive</value>
+        <value name="field_name">isDeleted</value>
         <value name="field_type">object</value>
         <value name="field_dim">0</value>
         <value name="wrapper_type">java.lang.Boolean</value>
@@ -3279,7 +3373,6 @@
         <value name="node_type">record</value>
         <value name="node_subtype">unknown</value>
         <record name="node_hints" javaclass="com.wm.util.Values">
-          <value name="id">3999af10-e051-11ee-b831-29485b13d751</value>
         </record>
         <value name="is_public">false</value>
         <value name="field_name">shippingAddress</value>
@@ -3357,6 +3450,18 @@
         <value name="field_name">lastUpdateDateTime</value>
         <value name="field_type">string</value>
         <value name="field_dim">0</value>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">unknown</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">isActive</value>
+        <value name="field_type">object</value>
+        <value name="field_dim">0</value>
+        <value name="wrapper_type">java.lang.Boolean</value>
         <value name="nillable">true</value>
         <value name="form_qualified">false</value>
         <value name="is_global">false</value>
@@ -3543,7 +3648,7 @@
         <record name="node_hints" javaclass="com.wm.util.Values">
         </record>
         <value name="is_public">false</value>
-        <value name="field_name">isActive</value>
+        <value name="field_name">isDeleted</value>
         <value name="field_type">object</value>
         <value name="field_dim">0</value>
         <value name="wrapper_type">java.lang.Boolean</value>
@@ -3612,7 +3717,6 @@
         <value name="node_type">record</value>
         <value name="node_subtype">unknown</value>
         <record name="node_hints" javaclass="com.wm.util.Values">
-          <value name="id">3999af10-e051-11ee-b831-29485b13d751</value>
         </record>
         <value name="is_public">false</value>
         <value name="field_name">shippingAddress</value>
@@ -3690,6 +3794,18 @@
         <value name="field_name">lastUpdateDateTime</value>
         <value name="field_type">string</value>
         <value name="field_dim">0</value>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">unknown</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">isActive</value>
+        <value name="field_type">object</value>
+        <value name="field_dim">0</value>
+        <value name="wrapper_type">java.lang.Boolean</value>
         <value name="nillable">true</value>
         <value name="form_qualified">false</value>
         <value name="is_global">false</value>
@@ -3780,7 +3896,7 @@
         <record name="node_hints" javaclass="com.wm.util.Values">
         </record>
         <value name="is_public">false</value>
-        <value name="field_name">isActive</value>
+        <value name="field_name">isDeleted</value>
         <value name="field_type">object</value>
         <value name="field_dim">0</value>
         <value name="wrapper_type">java.lang.Boolean</value>
@@ -3849,7 +3965,6 @@
         <value name="node_type">record</value>
         <value name="node_subtype">unknown</value>
         <record name="node_hints" javaclass="com.wm.util.Values">
-          <value name="id">3999af10-e051-11ee-b831-29485b13d751</value>
         </record>
         <value name="is_public">false</value>
         <value name="field_name">shippingAddress</value>
@@ -3927,6 +4042,18 @@
         <value name="field_name">lastUpdateDateTime</value>
         <value name="field_type">string</value>
         <value name="field_dim">0</value>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">unknown</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">isActive</value>
+        <value name="field_type">object</value>
+        <value name="field_dim">0</value>
+        <value name="wrapper_type">java.lang.Boolean</value>
         <value name="nillable">true</value>
         <value name="form_qualified">false</value>
         <value name="is_global">false</value>
@@ -4097,7 +4224,7 @@
         <record name="node_hints" javaclass="com.wm.util.Values">
         </record>
         <value name="is_public">false</value>
-        <value name="field_name">isActive</value>
+        <value name="field_name">isDeleted</value>
         <value name="field_type">object</value>
         <value name="field_dim">0</value>
         <value name="wrapper_type">java.lang.Boolean</value>
@@ -4234,7 +4361,6 @@
         <value name="node_type">record</value>
         <value name="node_subtype">unknown</value>
         <record name="node_hints" javaclass="com.wm.util.Values">
-          <value name="id">3999af10-e051-11ee-b831-29485b13d751</value>
         </record>
         <value name="is_public">false</value>
         <value name="field_name">shippingAddress</value>
@@ -4249,7 +4375,6 @@
             <value name="node_type">unknown</value>
             <value name="node_subtype">unknown</value>
             <record name="node_hints" javaclass="com.wm.util.Values">
-              <value name="id">3999af10-e051-11ee-b831-29485b13d751/3999af11-e051-11ee-b831-29485b13d751</value>
             </record>
             <value name="is_public">false</value>
             <value name="field_name">street</value>
@@ -4264,7 +4389,6 @@
             <value name="node_type">unknown</value>
             <value name="node_subtype">unknown</value>
             <record name="node_hints" javaclass="com.wm.util.Values">
-              <value name="id">3999af10-e051-11ee-b831-29485b13d751/3999af12-e051-11ee-b831-29485b13d751</value>
             </record>
             <value name="is_public">false</value>
             <value name="field_name">city</value>
@@ -4278,7 +4402,6 @@
             <value name="node_type">unknown</value>
             <value name="node_subtype">unknown</value>
             <record name="node_hints" javaclass="com.wm.util.Values">
-              <value name="id">3999af10-e051-11ee-b831-29485b13d751/3999af13-e051-11ee-b831-29485b13d751</value>
             </record>
             <value name="is_public">false</value>
             <value name="field_name">state</value>
@@ -4293,7 +4416,6 @@
             <value name="node_type">unknown</value>
             <value name="node_subtype">unknown</value>
             <record name="node_hints" javaclass="com.wm.util.Values">
-              <value name="id">3999af10-e051-11ee-b831-29485b13d751/3999af14-e051-11ee-b831-29485b13d751</value>
             </record>
             <value name="is_public">false</value>
             <value name="field_name">postalCode</value>
@@ -4308,7 +4430,6 @@
             <value name="node_type">unknown</value>
             <value name="node_subtype">unknown</value>
             <record name="node_hints" javaclass="com.wm.util.Values">
-              <value name="id">3999af10-e051-11ee-b831-29485b13d751/3999af15-e051-11ee-b831-29485b13d751</value>
             </record>
             <value name="is_public">false</value>
             <value name="field_name">countryCode</value>
@@ -4385,6 +4506,18 @@
         <value name="field_name">lastUpdateDateTime</value>
         <value name="field_type">string</value>
         <value name="field_dim">0</value>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">unknown</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">isActive</value>
+        <value name="field_type">object</value>
+        <value name="field_dim">0</value>
+        <value name="wrapper_type">java.lang.Boolean</value>
         <value name="nillable">true</value>
         <value name="form_qualified">false</value>
         <value name="is_global">false</value>
