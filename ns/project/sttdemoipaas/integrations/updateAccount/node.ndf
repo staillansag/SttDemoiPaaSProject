@@ -82,7 +82,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">demouser</value>
-    <value name="lastModifiedDate">1710232767464</value>
+    <value name="lastModifiedDate">1710232847996</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
       <value name="id">cfafebd5d07541738be9c556911b6bcf</value>
       <value name="group">default</value>
@@ -114,6 +114,7 @@
         <number name="nodeIndex" type="Long">0</number>
         <null name="mapSet"/>
         <null name="outputMapSet"/>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
       </record>
       <record name="/0/1" javaclass="com.wm.util.Values">
         <value name="itemType">CONTROLS</value>
@@ -138,10 +139,6 @@
           <value name="displayName">dateTimeFormat</value>
           <value name="serviceName">pub.date:dateTimeFormat</value>
           <value name="transformerSupport">true</value>
-        </record>
-        <record name="serviceInfo" javaclass="com.wm.util.Values">
-          <value name="groupName">date</value>
-          <value name="groupDisplayName">Date</value>
         </record>
         <array name="mapSet" type="object" depth="1">
         </array>
@@ -277,6 +274,7 @@
         <number name="nodeIndex" type="Long">0</number>
         <null name="mapSet"/>
         <null name="outputMapSet"/>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
       </record>
       <record name="/1/1" javaclass="com.wm.util.Values">
         <null name="name"/>
@@ -295,6 +293,7 @@
         <number name="nodeIndex" type="Long">1</number>
         <null name="mapSet"/>
         <null name="outputMapSet"/>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
       </record>
       <record name="/1/2" javaclass="com.wm.util.Values">
         <null name="name"/>
@@ -314,6 +313,7 @@
         <null name="mapSet"/>
         <null name="outputMapSet"/>
         <Boolean name="xmlMapsetSupported">true</Boolean>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
       </record>
       <record name="/1/3" javaclass="com.wm.util.Values">
         <value name="itemType">CONTROLS</value>
