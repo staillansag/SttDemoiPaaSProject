@@ -82,7 +82,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">demouser</value>
-    <value name="lastModifiedDate">1710229779730</value>
+    <value name="lastModifiedDate">1710230953429</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
       <value name="id">55a20ec1decd493e975197413986d9c8</value>
       <value name="group">default</value>
@@ -119,7 +119,7 @@
       <record name="/0/1" javaclass="com.wm.util.Values">
         <value name="itemType">CONTROLS</value>
         <value name="name">TRANSFORM</value>
-        <number name="ui_step_index" type="Long">4</number>
+        <number name="ui_step_index" type="Long">3</number>
         <number name="nodeIndex" type="Long">1</number>
         <array name="map" type="object" depth="1">
         </array>
@@ -155,15 +155,32 @@
         </array>
       </record>
       <record name="/0/2" javaclass="com.wm.util.Values">
+        <null name="name"/>
+        <value name="itemType">PACKAGES</value>
+        <record name="serviceInfo" javaclass="com.wm.util.Values">
+          <value name="groupDisplayName">sttUtils</value>
+          <value name="groupName">sttUtils;1.0</value>
+          <null name="services"/>
+        </record>
+        <record name="serviceName" javaclass="com.wm.util.Values">
+          <value name="description">sttUtils.services:getServerName</value>
+          <value name="serviceName">sttUtils.services:getServerName</value>
+          <value name="displayName">getServerName</value>
+        </record>
+        <null name="outputMapSet"/>
+        <null name="mapSet"/>
+        <number name="nodeIndex" type="Long">2</number>
+      </record>
+      <record name="/0/3" javaclass="com.wm.util.Values">
         <value name="itemType">APPS</value>
         <value name="id">com.wm.adapter.wmjdbc.JDBCAdapter</value>
         <value name="name">Database</value>
         <value name="providerName">WmJDBCAdapter</value>
         <record name="operation" javaclass="com.wm.util.Values">
           <value name="operationName">insertAccount</value>
-          <null name="description"/>
           <value name="isCustom">true</value>
           <value name="operationType">actions</value>
+          <value name="connectionType">sagcloud</value>
           <value name="projectName">project.sttdemoipaas</value>
         </record>
         <value name="appType">predefined</value>
@@ -194,22 +211,22 @@
         </array>
         <record name="connection" javaclass="com.wm.util.Values">
           <value name="connectionName">SQLEdgeLocalNoTransaction</value>
-          <value name="connectionType">webMethods Adapter for JDBC ExtendedConnection</value>
+          <value name="connectionType">sagcloud</value>
           <null name="description"/>
         </record>
         <value name="connectionNSName">project.sttdemoipaas.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:SQLEdgeLocalNoTransaction</value>
-        <value name="connectionType">webMethods Adapter for JDBC ExtendedConnection</value>
+        <value name="connectionType">sagcloud</value>
         <Boolean name="accountReferenceResolved">true</Boolean>
         <number name="ui_step_index" type="Long">5</number>
-        <number name="nodeIndex" type="Long">2</number>
+        <number name="nodeIndex" type="Long">3</number>
         <Boolean name="xmlMapsetSupported">true</Boolean>
         <null name="outputMapSet"/>
       </record>
-      <record name="/0/3" javaclass="com.wm.util.Values">
+      <record name="/0/4" javaclass="com.wm.util.Values">
         <value name="itemType">CONTROLS</value>
         <value name="name">TRANSFORM</value>
         <number name="ui_step_index" type="Long">5</number>
-        <number name="nodeIndex" type="Long">3</number>
+        <number name="nodeIndex" type="Long">4</number>
         <array name="map" type="object" depth="1">
         </array>
         <array name="mapSet" type="object" depth="1">
@@ -221,7 +238,7 @@
         <array name="lookupTransformer" type="object" depth="1">
         </array>
       </record>
-      <null name="/0/3/0"/>
+      <null name="/0/4/0"/>
       <record name="/1" javaclass="com.wm.util.Values">
         <value name="name">CATCH</value>
         <value name="itemType">CONTROLS</value>
