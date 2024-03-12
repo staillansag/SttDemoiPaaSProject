@@ -99,9 +99,8 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">demouser</value>
-    <value name="createdDate">1710231977430</value>
-    <value name="lastModifiedDate">1710231977430</value>
+    <value name="lastModifiedBy">demouser</value>
+    <value name="lastModifiedDate">1710232090200</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
       <value name="id">55a20ec1decd493e975197413986d9c8</value>
       <value name="group">default</value>
@@ -183,12 +182,13 @@
         </array>
         <array name="lookupTransformer" type="object" depth="1">
         </array>
-        <array name="mapSet" type="object" depth="1">
-        </array>
+        <null name="mapSet"/>
         <array name="inputMap" type="object" depth="1">
         </array>
         <array name="outputMap" type="object" depth="1">
         </array>
+        <number name="ui_step_index" type="Long">4</number>
+        <null name="outputMapSet"/>
       </record>
       <record name="/0/2" javaclass="com.wm.util.Values">
         <value name="itemType">CONTROLS</value>
