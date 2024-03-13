@@ -5,11 +5,6 @@
 
   <!-- nodes -->
 
-<SEQUENCE TIMEOUT="" EXIT-ON="FAILURE" FORM="TRY">
-  <COMMENT></COMMENT>
-
-  <!-- nodes -->
-
 <INVOKE NAME="String" SERVICE="pub.string:objectToString">
   <COMMENT></COMMENT>
 
@@ -3190,7 +3185,6 @@
 </DATA>
 </MAPSET>
 </MAP>
-</SEQUENCE>
 
 <MAP TIMEOUT="" MODE="STANDALONE">
   <COMMENT></COMMENT>
