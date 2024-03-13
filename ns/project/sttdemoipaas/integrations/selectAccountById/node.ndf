@@ -100,7 +100,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">demouser</value>
-    <value name="lastModifiedDate">1710232099036</value>
+    <value name="lastModifiedDate">1710322037578</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
       <value name="id">55a20ec1decd493e975197413986d9c8</value>
       <value name="group">default</value>
@@ -111,11 +111,6 @@
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
       <record name="/0" javaclass="com.wm.util.Values">
-        <value name="name">TRY</value>
-        <value name="itemType">CONTROLS</value>
-        <number name="nodeIndex" type="Long">0</number>
-      </record>
-      <record name="/0/0" javaclass="com.wm.util.Values">
         <value name="itemType">CONTROLS</value>
         <value name="name">IF</value>
         <record name="config" javaclass="com.wm.util.Values">
@@ -130,17 +125,17 @@
         </record>
         <number name="nodeIndex" type="Long">0</number>
       </record>
-      <record name="/0/0/0" javaclass="com.wm.util.Values">
+      <record name="/0/0" javaclass="com.wm.util.Values">
         <value name="name">IF</value>
         <value name="itemType">CONTROLS</value>
         <number name="nodeIndex" type="Long">0</number>
       </record>
-      <record name="/0/0/0/0" javaclass="com.wm.util.Values">
+      <record name="/0/0/0" javaclass="com.wm.util.Values">
         <value name="itemType">CONTROLS</value>
         <value name="name">THROWERROR</value>
         <number name="nodeIndex" type="Long">0</number>
       </record>
-      <record name="/0/1" javaclass="com.wm.util.Values">
+      <record name="/1" javaclass="com.wm.util.Values">
         <value name="itemType">APPS</value>
         <value name="id">com.wm.adapter.wmjdbc.JDBCAdapter</value>
         <value name="name">Database</value>
@@ -190,7 +185,7 @@
         <number name="ui_step_index" type="Long">4</number>
         <null name="outputMapSet"/>
       </record>
-      <record name="/0/2" javaclass="com.wm.util.Values">
+      <record name="/2" javaclass="com.wm.util.Values">
         <value name="itemType">CONTROLS</value>
         <value name="name">IF</value>
         <record name="config" javaclass="com.wm.util.Values">
@@ -205,12 +200,12 @@
         </record>
         <number name="nodeIndex" type="Long">2</number>
       </record>
-      <record name="/0/2/0" javaclass="com.wm.util.Values">
+      <record name="/2/0" javaclass="com.wm.util.Values">
         <value name="name">IF</value>
         <value name="itemType">CONTROLS</value>
         <number name="nodeIndex" type="Long">0</number>
       </record>
-      <record name="/0/2/0/0" javaclass="com.wm.util.Values">
+      <record name="/2/0/0" javaclass="com.wm.util.Values">
         <value name="itemType">CONTROLS</value>
         <value name="name">TRANSFORM</value>
         <number name="ui_step_index" type="Long">5</number>
@@ -226,33 +221,33 @@
         <array name="lookupTransformer" type="object" depth="1">
         </array>
       </record>
-      <null name="/0/2/0/0/0"/>
-      <null name="/0/2/0/0/1"/>
-      <null name="/0/2/0/0/2"/>
-      <null name="/0/2/0/0/3"/>
-      <null name="/0/2/0/0/4"/>
-      <null name="/0/2/0/0/5"/>
-      <null name="/0/2/0/0/6"/>
-      <null name="/0/2/0/0/7"/>
-      <null name="/0/2/0/0/8"/>
-      <null name="/0/2/0/0/9"/>
-      <null name="/0/2/0/0/10"/>
-      <null name="/0/2/0/0/11"/>
-      <null name="/0/2/0/0/12"/>
-      <null name="/0/2/0/0/13"/>
-      <null name="/0/2/0/0/14"/>
-      <null name="/0/2/0/0/15"/>
-      <null name="/0/2/0/0/16"/>
-      <null name="/0/2/0/0/17"/>
-      <null name="/0/2/0/0/18"/>
-      <null name="/0/2/0/0/19"/>
-      <null name="/0/2/0/0/20"/>
-      <record name="/0/2/1" javaclass="com.wm.util.Values">
+      <null name="/2/0/0/0"/>
+      <null name="/2/0/0/1"/>
+      <null name="/2/0/0/2"/>
+      <null name="/2/0/0/3"/>
+      <null name="/2/0/0/4"/>
+      <null name="/2/0/0/5"/>
+      <null name="/2/0/0/6"/>
+      <null name="/2/0/0/7"/>
+      <null name="/2/0/0/8"/>
+      <null name="/2/0/0/9"/>
+      <null name="/2/0/0/10"/>
+      <null name="/2/0/0/11"/>
+      <null name="/2/0/0/12"/>
+      <null name="/2/0/0/13"/>
+      <null name="/2/0/0/14"/>
+      <null name="/2/0/0/15"/>
+      <null name="/2/0/0/16"/>
+      <null name="/2/0/0/17"/>
+      <null name="/2/0/0/18"/>
+      <null name="/2/0/0/19"/>
+      <null name="/2/0/0/20"/>
+      <record name="/2/1" javaclass="com.wm.util.Values">
         <value name="name">ELSE</value>
         <value name="itemType">CONTROLS</value>
         <number name="nodeIndex" type="Long">0</number>
       </record>
-      <record name="/0/2/1/0" javaclass="com.wm.util.Values">
+      <record name="/2/1/0" javaclass="com.wm.util.Values">
         <value name="itemType">CONTROLS</value>
         <value name="name">TRANSFORM</value>
         <number name="ui_step_index" type="Long">8</number>
@@ -268,71 +263,7 @@
         <array name="lookupTransformer" type="object" depth="1">
         </array>
       </record>
-      <null name="/0/2/1/0/0"/>
-      <record name="/1" javaclass="com.wm.util.Values">
-        <value name="name">CATCH</value>
-        <value name="itemType">CONTROLS</value>
-        <number name="nodeIndex" type="Long">1</number>
-      </record>
-      <record name="/1/0" javaclass="com.wm.util.Values">
-        <null name="name"/>
-        <value name="itemType">SERVICES</value>
-        <record name="serviceInfo" javaclass="com.wm.util.Values">
-          <value name="groupDisplayName">Flow</value>
-          <value name="groupName">flow</value>
-          <null name="services"/>
-        </record>
-        <record name="serviceName" javaclass="com.wm.util.Values">
-          <value name="displayName">getLastFailureCaught</value>
-          <value name="serviceName">pub.flow:getLastFailureCaught</value>
-          <value name="transformerSupport">false</value>
-        </record>
-        <number name="nodeIndex" type="Long">0</number>
-        <number name="ui_step_index" type="Long">4</number>
-        <null name="mapSet"/>
-        <null name="outputMapSet"/>
-      </record>
-      <record name="/1/1" javaclass="com.wm.util.Values">
-        <null name="name"/>
-        <value name="itemType">SERVICES</value>
-        <record name="serviceInfo" javaclass="com.wm.util.Values">
-          <value name="groupDisplayName">String</value>
-          <value name="groupName">string</value>
-          <null name="services"/>
-        </record>
-        <record name="serviceName" javaclass="com.wm.util.Values">
-          <value name="displayName">objectToString</value>
-          <value name="serviceName">pub.string:objectToString</value>
-          <value name="transformerSupport">true</value>
-        </record>
-        <number name="ui_step_index" type="Long">5</number>
-        <number name="nodeIndex" type="Long">1</number>
-        <null name="mapSet"/>
-        <null name="outputMapSet"/>
-      </record>
-      <record name="/1/2" javaclass="com.wm.util.Values">
-        <null name="name"/>
-        <value name="itemType">SERVICES</value>
-        <record name="serviceInfo" javaclass="com.wm.util.Values">
-          <value name="groupDisplayName">Flow</value>
-          <value name="groupName">flow</value>
-          <null name="services"/>
-        </record>
-        <record name="serviceName" javaclass="com.wm.util.Values">
-          <value name="displayName">debugLog</value>
-          <value name="serviceName">pub.flow:debugLog</value>
-          <value name="transformerSupport">false</value>
-        </record>
-        <number name="ui_step_index" type="Long">6</number>
-        <number name="nodeIndex" type="Long">2</number>
-        <null name="mapSet"/>
-        <null name="outputMapSet"/>
-        <Boolean name="xmlMapsetSupported">true</Boolean>
-      </record>
-      <record name="/1/3" javaclass="com.wm.util.Values">
-        <value name="itemType">CONTROLS</value>
-        <value name="name">THROWERROR</value>
-      </record>
+      <null name="/2/1/0/0"/>
     </record>
   </record>
   <value name="svc_in_validator_options">none</value>
