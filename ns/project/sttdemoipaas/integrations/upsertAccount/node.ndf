@@ -367,7 +367,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">demouser</value>
-    <value name="lastModifiedDate">1710838855313</value>
+    <value name="lastModifiedDate">1710839405101</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
       <value name="id">55a20ec1decd493e975197413986d9c8</value>
       <value name="group">default</value>
@@ -528,10 +528,57 @@
         <null name="outputMapSet"/>
         <null name="mapSet"/>
         <number name="ui_step_index" type="Long">6</number>
-        <number name="nodeIndex" type="Long">3</number>
+        <number name="nodeIndex" type="Long">4</number>
         <Boolean name="allowCustomOperations">true</Boolean>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
       </record>
       <record name="/4" javaclass="com.wm.util.Values">
+        <value name="itemType">CONTROLS</value>
+        <value name="name">TRANSFORM</value>
+        <number name="ui_step_index" type="Long">9</number>
+        <number name="nodeIndex" type="Long">5</number>
+        <array name="map" type="object" depth="1">
+        </array>
+        <array name="mapSet" type="object" depth="1">
+        </array>
+        <array name="mapDelete" type="object" depth="1">
+        </array>
+        <array name="transformer" type="object" depth="1">
+        </array>
+        <array name="lookupTransformer" type="object" depth="1">
+        </array>
+      </record>
+      <record name="/4/0" javaclass="com.wm.util.Values">
+        <value name="itemType">SERVICES</value>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
+        <record name="serviceName" javaclass="com.wm.util.Values">
+          <value name="displayName">dateTimeFormat</value>
+          <value name="serviceName">pub.date:dateTimeFormat</value>
+          <value name="transformerSupport">true</value>
+        </record>
+        <record name="serviceInfo" javaclass="com.wm.util.Values">
+          <value name="groupName">date</value>
+          <value name="groupDisplayName">Date</value>
+        </record>
+        <array name="mapSet" type="object" depth="1">
+        </array>
+      </record>
+      <record name="/4/1" javaclass="com.wm.util.Values">
+        <value name="itemType">SERVICES</value>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
+        <record name="serviceName" javaclass="com.wm.util.Values">
+          <value name="displayName">dateTimeFormat</value>
+          <value name="serviceName">pub.date:dateTimeFormat</value>
+          <value name="transformerSupport">true</value>
+        </record>
+        <record name="serviceInfo" javaclass="com.wm.util.Values">
+          <value name="groupName">date</value>
+          <value name="groupDisplayName">Date</value>
+        </record>
+        <array name="mapSet" type="object" depth="1">
+        </array>
+      </record>
+      <record name="/5" javaclass="com.wm.util.Values">
         <value name="itemType">CONTROLS</value>
         <value name="name">IF</value>
         <record name="config" javaclass="com.wm.util.Values">
@@ -544,14 +591,14 @@
           <Boolean name="resetOnfocusout">true</Boolean>
           <Boolean name="displayIcon">true</Boolean>
         </record>
-        <number name="nodeIndex" type="Long">5</number>
+        <number name="nodeIndex" type="Long">6</number>
       </record>
-      <record name="/4/0" javaclass="com.wm.util.Values">
+      <record name="/5/0" javaclass="com.wm.util.Values">
         <value name="name">IF</value>
         <value name="itemType">CONTROLS</value>
         <number name="nodeIndex" type="Long">0</number>
       </record>
-      <record name="/4/0/0" javaclass="com.wm.util.Values">
+      <record name="/5/0/0" javaclass="com.wm.util.Values">
         <value name="itemType">APPS</value>
         <value name="id">com.wm.adapter.wmjdbc.JDBCAdapter</value>
         <value name="name">Database</value>
@@ -597,17 +644,17 @@
         <value name="connectionNSName">project.sttdemoipaas.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:SQLEdgeLocalNoTransaction</value>
         <value name="connectionType">webMethods Adapter for JDBC ExtendedConnection</value>
         <Boolean name="accountReferenceResolved">true</Boolean>
-        <number name="ui_step_index" type="Long">10</number>
+        <number name="ui_step_index" type="Long">11</number>
         <number name="nodeIndex" type="Long">0</number>
         <Boolean name="xmlMapsetSupported">true</Boolean>
         <null name="outputMapSet"/>
       </record>
-      <record name="/4/1" javaclass="com.wm.util.Values">
+      <record name="/5/1" javaclass="com.wm.util.Values">
         <value name="name">ELSE</value>
         <value name="itemType">CONTROLS</value>
         <number name="nodeIndex" type="Long">0</number>
       </record>
-      <record name="/4/1/0" javaclass="com.wm.util.Values">
+      <record name="/5/1/0" javaclass="com.wm.util.Values">
         <value name="itemType">APPS</value>
         <value name="id">com.wm.adapter.wmjdbc.JDBCAdapter</value>
         <value name="name">Database</value>
@@ -653,12 +700,12 @@
         <value name="connectionNSName">project.sttdemoipaas.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:SQLEdgeLocalNoTransaction</value>
         <value name="connectionType">webMethods Adapter for JDBC ExtendedConnection</value>
         <Boolean name="accountReferenceResolved">true</Boolean>
-        <number name="ui_step_index" type="Long">12</number>
+        <number name="ui_step_index" type="Long">13</number>
         <number name="nodeIndex" type="Long">0</number>
         <Boolean name="xmlMapsetSupported">true</Boolean>
         <null name="outputMapSet"/>
       </record>
-      <record name="/5" javaclass="com.wm.util.Values">
+      <record name="/6" javaclass="com.wm.util.Values">
         <value name="itemType">CONTROLS</value>
         <value name="name">TRANSFORM</value>
         <number name="ui_step_index" type="Long">13</number>
@@ -674,48 +721,48 @@
         <array name="lookupTransformer" type="object" depth="1">
         </array>
       </record>
-      <null name="/5/0"/>
-      <record name="/5/1" javaclass="com.wm.util.Values">
+      <null name="/6/0"/>
+      <record name="/6/1" javaclass="com.wm.util.Values">
       </record>
-      <record name="/5/2" javaclass="com.wm.util.Values">
+      <record name="/6/2" javaclass="com.wm.util.Values">
       </record>
-      <record name="/5/3" javaclass="com.wm.util.Values">
+      <record name="/6/3" javaclass="com.wm.util.Values">
       </record>
-      <record name="/5/4" javaclass="com.wm.util.Values">
+      <record name="/6/4" javaclass="com.wm.util.Values">
       </record>
-      <record name="/5/5" javaclass="com.wm.util.Values">
+      <record name="/6/5" javaclass="com.wm.util.Values">
       </record>
-      <record name="/5/6" javaclass="com.wm.util.Values">
+      <record name="/6/6" javaclass="com.wm.util.Values">
       </record>
-      <record name="/5/7" javaclass="com.wm.util.Values">
+      <record name="/6/7" javaclass="com.wm.util.Values">
       </record>
-      <record name="/5/8" javaclass="com.wm.util.Values">
+      <record name="/6/8" javaclass="com.wm.util.Values">
       </record>
-      <record name="/5/9" javaclass="com.wm.util.Values">
+      <record name="/6/9" javaclass="com.wm.util.Values">
       </record>
-      <record name="/5/10" javaclass="com.wm.util.Values">
+      <record name="/6/10" javaclass="com.wm.util.Values">
       </record>
-      <record name="/5/11" javaclass="com.wm.util.Values">
+      <record name="/6/11" javaclass="com.wm.util.Values">
       </record>
-      <record name="/5/12" javaclass="com.wm.util.Values">
+      <record name="/6/12" javaclass="com.wm.util.Values">
       </record>
-      <record name="/5/13" javaclass="com.wm.util.Values">
+      <record name="/6/13" javaclass="com.wm.util.Values">
       </record>
-      <record name="/5/14" javaclass="com.wm.util.Values">
+      <record name="/6/14" javaclass="com.wm.util.Values">
       </record>
-      <record name="/5/15" javaclass="com.wm.util.Values">
+      <record name="/6/15" javaclass="com.wm.util.Values">
       </record>
-      <record name="/5/16" javaclass="com.wm.util.Values">
+      <record name="/6/16" javaclass="com.wm.util.Values">
       </record>
-      <record name="/5/17" javaclass="com.wm.util.Values">
+      <record name="/6/17" javaclass="com.wm.util.Values">
       </record>
-      <record name="/5/18" javaclass="com.wm.util.Values">
+      <record name="/6/18" javaclass="com.wm.util.Values">
       </record>
-      <record name="/5/19" javaclass="com.wm.util.Values">
+      <record name="/6/19" javaclass="com.wm.util.Values">
       </record>
-      <record name="/5/20" javaclass="com.wm.util.Values">
+      <record name="/6/20" javaclass="com.wm.util.Values">
       </record>
-      <record name="/5/21" javaclass="com.wm.util.Values">
+      <record name="/6/21" javaclass="com.wm.util.Values">
       </record>
     </record>
   </record>
