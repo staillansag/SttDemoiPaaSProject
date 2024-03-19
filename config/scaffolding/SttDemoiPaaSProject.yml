@@ -88,6 +88,12 @@ services:
     version: "1.0"
   - name: sttUtils
     version: "1.0"
+- serviceName: project.sttdemoipaas.integrations:upsertAccount
+  packages:
+  - name: SttDemoiPaaSProject
+    version: "1.0"
+  - name: sttUtils
+    version: "1.0"
 configurationVariables:
   ? artConnection.SttDemoiPaaSProject.project.sttdemoipaas.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.SQLEdgeLocalNoTransaction.connectionSettings.otherProperties
   : loginTimeout=60;
