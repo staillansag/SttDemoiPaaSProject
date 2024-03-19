@@ -367,7 +367,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">demouser</value>
-    <value name="lastModifiedDate">1710837893772</value>
+    <value name="lastModifiedDate">1710837940373</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
       <value name="id">55a20ec1decd493e975197413986d9c8</value>
       <value name="group">default</value>
@@ -378,57 +378,6 @@
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
       <record name="/0" javaclass="com.wm.util.Values">
-        <value name="name">selectAccountById</value>
-        <value name="displayName">selectAccountById</value>
-        <value name="itemType">INTEGRATIONS</value>
-        <number name="ui_step_index" type="Long">1</number>
-        <number name="nodeIndex" type="Long">0</number>
-        <null name="mapSet"/>
-        <null name="outputMapSet"/>
-        <Boolean name="serviceReferenceResolved">true</Boolean>
-      </record>
-      <record name="/1" javaclass="com.wm.util.Values">
-        <value name="itemType">CONTROLS</value>
-        <value name="name">IF</value>
-        <record name="config" javaclass="com.wm.util.Values">
-          <value name="displayLabel">field_name</value>
-          <value name="toolTipLabel">name</value>
-          <Boolean name="showLeafLabelOnly">true</Boolean>
-          <Boolean name="allowConstantValueInput">true</Boolean>
-          <Boolean name="focusOnLoad">true</Boolean>
-          <Boolean name="specialCharsAllowed">false</Boolean>
-          <Boolean name="resetOnfocusout">true</Boolean>
-          <Boolean name="displayIcon">true</Boolean>
-        </record>
-        <number name="nodeIndex" type="Long">1</number>
-      </record>
-      <record name="/1/0" javaclass="com.wm.util.Values">
-        <value name="name">IF</value>
-        <value name="itemType">CONTROLS</value>
-        <number name="nodeIndex" type="Long">0</number>
-      </record>
-      <record name="/1/0/0" javaclass="com.wm.util.Values">
-        <value name="name">updateAccount</value>
-        <value name="displayName">updateAccount</value>
-        <value name="itemType">INTEGRATIONS</value>
-        <number name="ui_step_index" type="Long">3</number>
-        <number name="nodeIndex" type="Long">0</number>
-        <Boolean name="serviceReferenceResolved">true</Boolean>
-      </record>
-      <record name="/1/1" javaclass="com.wm.util.Values">
-        <value name="name">ELSE</value>
-        <value name="itemType">CONTROLS</value>
-        <number name="nodeIndex" type="Long">0</number>
-      </record>
-      <record name="/1/1/0" javaclass="com.wm.util.Values">
-        <value name="name">createAccount</value>
-        <value name="displayName">createAccount</value>
-        <value name="itemType">INTEGRATIONS</value>
-        <number name="ui_step_index" type="Long">5</number>
-        <number name="nodeIndex" type="Long">0</number>
-        <Boolean name="serviceReferenceResolved">true</Boolean>
-      </record>
-      <record name="/2" javaclass="com.wm.util.Values">
         <value name="itemType">ALL</value>
         <value name="name">NEW</value>
       </record>
