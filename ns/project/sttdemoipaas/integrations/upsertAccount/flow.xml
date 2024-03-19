@@ -131,7 +131,6 @@
         <value name="node_type">record</value>
         <value name="node_subtype">unknown</value>
         <record name="node_hints" javaclass="com.wm.util.Values">
-          <value name="id">427e9ce0-e055-11ee-b831-29485b13d751</value>
         </record>
         <value name="is_public">false</value>
         <value name="field_name">billingAddress</value>
@@ -149,7 +148,6 @@
         <value name="node_type">record</value>
         <value name="node_subtype">unknown</value>
         <record name="node_hints" javaclass="com.wm.util.Values">
-          <value name="id">427e9ce6-e055-11ee-b831-29485b13d751</value>
         </record>
         <value name="is_public">false</value>
         <value name="field_name">shippingAddress</value>
@@ -328,7 +326,6 @@
         <value name="node_type">record</value>
         <value name="node_subtype">unknown</value>
         <record name="node_hints" javaclass="com.wm.util.Values">
-          <value name="id">427e9ce0-e055-11ee-b831-29485b13d751</value>
         </record>
         <value name="is_public">false</value>
         <value name="field_name">billingAddress</value>
@@ -346,7 +343,6 @@
         <value name="node_type">record</value>
         <value name="node_subtype">unknown</value>
         <record name="node_hints" javaclass="com.wm.util.Values">
-          <value name="id">427e9ce6-e055-11ee-b831-29485b13d751</value>
         </record>
         <value name="is_public">false</value>
         <value name="field_name">shippingAddress</value>
@@ -475,23 +471,6 @@
         <value name="form_qualified">false</value>
         <value name="is_global">false</value>
       </record>
-      <record javaclass="com.wm.util.Values">
-        <value name="node_type">field</value>
-        <value name="node_subtype">unknown</value>
-        <value name="node_comment"></value>
-        <record name="node_hints" javaclass="com.wm.util.Values">
-          <value name="field_largerEditor">false</value>
-          <value name="field_password">false</value>
-          <value name="field_usereditable">false</value>
-        </record>
-        <value name="is_public">false</value>
-        <value name="field_name">status</value>
-        <value name="field_type">string</value>
-        <value name="field_dim">0</value>
-        <value name="nillable">true</value>
-        <value name="form_qualified">false</value>
-        <value name="is_global">false</value>
-      </record>
     </array>
     <value name="modifiable">true</value>
   </record>
@@ -559,4 +538,34 @@
 </MAPDELETE>
 </MAP>
 </INVOKE>
+
+<BRANCH NAME="IF" LABELEXPRESSIONS="true">
+  <COMMENT></COMMENT>
+
+  <!-- nodes -->
+
+<SEQUENCE NAME="((%/found%==&#39;true&#39;))" EXIT-ON="FAILURE">
+  <COMMENT></COMMENT>
+
+  <!-- nodes -->
+
+<INVOKE NAME="INTEGRATIONS" SERVICE="project.sttdemoipaas.integrations:updateAccount">
+  <COMMENT></COMMENT>
+</INVOKE>
+</SEQUENCE>
+
+<SEQUENCE NAME="$default" EXIT-ON="FAILURE">
+  <COMMENT></COMMENT>
+
+  <!-- nodes -->
+
+<INVOKE NAME="INTEGRATIONS" SERVICE="project.sttdemoipaas.integrations:createAccount">
+  <COMMENT></COMMENT>
+</INVOKE>
+</SEQUENCE>
+</BRANCH>
+
+<SEQUENCE NAME="NEW" EXIT-ON="FAILURE">
+  <COMMENT></COMMENT>
+</SEQUENCE>
 </FLOW>

@@ -86,7 +86,6 @@
           <value name="node_type">record</value>
           <value name="node_subtype">unknown</value>
           <record name="node_hints" javaclass="com.wm.util.Values">
-            <value name="id">427e9ce0-e055-11ee-b831-29485b13d751</value>
           </record>
           <value name="is_public">false</value>
           <value name="field_name">billingAddress</value>
@@ -101,7 +100,6 @@
               <value name="node_type">unknown</value>
               <value name="node_subtype">unknown</value>
               <record name="node_hints" javaclass="com.wm.util.Values">
-                <value name="id">427e9ce0-e055-11ee-b831-29485b13d751/427e9ce1-e055-11ee-b831-29485b13d751</value>
               </record>
               <value name="is_public">false</value>
               <value name="field_name">street</value>
@@ -116,7 +114,6 @@
               <value name="node_type">unknown</value>
               <value name="node_subtype">unknown</value>
               <record name="node_hints" javaclass="com.wm.util.Values">
-                <value name="id">427e9ce0-e055-11ee-b831-29485b13d751/427e9ce2-e055-11ee-b831-29485b13d751</value>
               </record>
               <value name="is_public">false</value>
               <value name="field_name">city</value>
@@ -130,7 +127,6 @@
               <value name="node_type">unknown</value>
               <value name="node_subtype">unknown</value>
               <record name="node_hints" javaclass="com.wm.util.Values">
-                <value name="id">427e9ce0-e055-11ee-b831-29485b13d751/427e9ce3-e055-11ee-b831-29485b13d751</value>
               </record>
               <value name="is_public">false</value>
               <value name="field_name">state</value>
@@ -145,7 +141,6 @@
               <value name="node_type">unknown</value>
               <value name="node_subtype">unknown</value>
               <record name="node_hints" javaclass="com.wm.util.Values">
-                <value name="id">427e9ce0-e055-11ee-b831-29485b13d751/427e9ce4-e055-11ee-b831-29485b13d751</value>
               </record>
               <value name="is_public">false</value>
               <value name="field_name">postalCode</value>
@@ -160,7 +155,6 @@
               <value name="node_type">unknown</value>
               <value name="node_subtype">unknown</value>
               <record name="node_hints" javaclass="com.wm.util.Values">
-                <value name="id">427e9ce0-e055-11ee-b831-29485b13d751/427e9ce5-e055-11ee-b831-29485b13d751</value>
               </record>
               <value name="is_public">false</value>
               <value name="field_name">countryCode</value>
@@ -177,7 +171,6 @@
           <value name="node_type">record</value>
           <value name="node_subtype">unknown</value>
           <record name="node_hints" javaclass="com.wm.util.Values">
-            <value name="id">427e9ce6-e055-11ee-b831-29485b13d751</value>
           </record>
           <value name="is_public">false</value>
           <value name="field_name">shippingAddress</value>
@@ -191,7 +184,6 @@
               <value name="node_type">unknown</value>
               <value name="node_subtype">unknown</value>
               <record name="node_hints" javaclass="com.wm.util.Values">
-                <value name="id">427e9ce6-e055-11ee-b831-29485b13d751/427e9ce7-e055-11ee-b831-29485b13d751</value>
               </record>
               <value name="is_public">false</value>
               <value name="field_name">street</value>
@@ -206,7 +198,6 @@
               <value name="node_type">unknown</value>
               <value name="node_subtype">unknown</value>
               <record name="node_hints" javaclass="com.wm.util.Values">
-                <value name="id">427e9ce6-e055-11ee-b831-29485b13d751/427e9ce8-e055-11ee-b831-29485b13d751</value>
               </record>
               <value name="is_public">false</value>
               <value name="field_name">city</value>
@@ -220,7 +211,6 @@
               <value name="node_type">unknown</value>
               <value name="node_subtype">unknown</value>
               <record name="node_hints" javaclass="com.wm.util.Values">
-                <value name="id">427e9ce6-e055-11ee-b831-29485b13d751/427e9ce9-e055-11ee-b831-29485b13d751</value>
               </record>
               <value name="is_public">false</value>
               <value name="field_name">state</value>
@@ -235,7 +225,6 @@
               <value name="node_type">unknown</value>
               <value name="node_subtype">unknown</value>
               <record name="node_hints" javaclass="com.wm.util.Values">
-                <value name="id">427e9ce6-e055-11ee-b831-29485b13d751/427e9cea-e055-11ee-b831-29485b13d751</value>
               </record>
               <value name="is_public">false</value>
               <value name="field_name">postalCode</value>
@@ -250,7 +239,6 @@
               <value name="node_type">unknown</value>
               <value name="node_subtype">unknown</value>
               <record name="node_hints" javaclass="com.wm.util.Values">
-                <value name="id">427e9ce6-e055-11ee-b831-29485b13d751/427e9ceb-e055-11ee-b831-29485b13d751</value>
               </record>
               <value name="is_public">false</value>
               <value name="field_name">countryCode</value>
@@ -379,7 +367,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">demouser</value>
-    <value name="lastModifiedDate">1710836633492</value>
+    <value name="lastModifiedDate">1710836785056</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
       <value name="id">55a20ec1decd493e975197413986d9c8</value>
       <value name="group">default</value>
@@ -397,6 +385,49 @@
         <number name="nodeIndex" type="Long">0</number>
         <null name="mapSet"/>
         <null name="outputMapSet"/>
+      </record>
+      <record name="/1" javaclass="com.wm.util.Values">
+        <value name="itemType">CONTROLS</value>
+        <value name="name">IF</value>
+        <record name="config" javaclass="com.wm.util.Values">
+          <value name="displayLabel">field_name</value>
+          <value name="toolTipLabel">name</value>
+          <Boolean name="showLeafLabelOnly">true</Boolean>
+          <Boolean name="allowConstantValueInput">true</Boolean>
+          <Boolean name="focusOnLoad">true</Boolean>
+          <Boolean name="specialCharsAllowed">false</Boolean>
+          <Boolean name="resetOnfocusout">true</Boolean>
+          <Boolean name="displayIcon">true</Boolean>
+        </record>
+        <number name="nodeIndex" type="Long">1</number>
+      </record>
+      <record name="/1/0" javaclass="com.wm.util.Values">
+        <value name="name">IF</value>
+        <value name="itemType">CONTROLS</value>
+        <number name="nodeIndex" type="Long">0</number>
+      </record>
+      <record name="/1/0/0" javaclass="com.wm.util.Values">
+        <value name="name">updateAccount</value>
+        <value name="displayName">updateAccount</value>
+        <value name="itemType">INTEGRATIONS</value>
+        <number name="ui_step_index" type="Long">3</number>
+        <number name="nodeIndex" type="Long">0</number>
+      </record>
+      <record name="/1/1" javaclass="com.wm.util.Values">
+        <value name="name">ELSE</value>
+        <value name="itemType">CONTROLS</value>
+        <number name="nodeIndex" type="Long">0</number>
+      </record>
+      <record name="/1/1/0" javaclass="com.wm.util.Values">
+        <value name="name">createAccount</value>
+        <value name="displayName">createAccount</value>
+        <value name="itemType">INTEGRATIONS</value>
+        <number name="ui_step_index" type="Long">5</number>
+        <number name="nodeIndex" type="Long">0</number>
+      </record>
+      <record name="/2" javaclass="com.wm.util.Values">
+        <value name="itemType">ALL</value>
+        <value name="name">NEW</value>
       </record>
     </record>
   </record>
