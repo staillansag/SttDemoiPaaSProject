@@ -539,27 +539,27 @@
 </MAP>
 </INVOKE>
 
-<BRANCH NAME="IF" LABELEXPRESSIONS="true">
+<BRANCH NAME="IF" DISABLED="true" LABELEXPRESSIONS="true">
   <COMMENT></COMMENT>
 
   <!-- nodes -->
 
-<SEQUENCE NAME="((%/found%==&#39;true&#39;))" EXIT-ON="FAILURE">
+<SEQUENCE NAME="((%/found%==&#39;true&#39;))" EXIT-ON="FAILURE" DISABLED="true">
   <COMMENT></COMMENT>
 
   <!-- nodes -->
 
-<INVOKE NAME="INTEGRATIONS" SERVICE="project.sttdemoipaas.integrations:updateAccount">
+<INVOKE NAME="INTEGRATIONS" SERVICE="project.sttdemoipaas.integrations:updateAccount" DISABLED="true">
   <COMMENT></COMMENT>
 </INVOKE>
 </SEQUENCE>
 
-<SEQUENCE NAME="$default" EXIT-ON="FAILURE">
+<SEQUENCE NAME="$default" EXIT-ON="FAILURE" DISABLED="true">
   <COMMENT></COMMENT>
 
   <!-- nodes -->
 
-<INVOKE NAME="INTEGRATIONS" SERVICE="project.sttdemoipaas.integrations:createAccount">
+<INVOKE NAME="INTEGRATIONS" SERVICE="project.sttdemoipaas.integrations:createAccount" DISABLED="true">
   <COMMENT></COMMENT>
 </INVOKE>
 </SEQUENCE>
