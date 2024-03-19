@@ -367,7 +367,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">demouser</value>
-    <value name="lastModifiedDate">1710839414383</value>
+    <value name="lastModifiedDate">1710857689012</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
       <value name="id">55a20ec1decd493e975197413986d9c8</value>
       <value name="group">default</value>
@@ -378,6 +378,22 @@
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
       <record name="/0" javaclass="com.wm.util.Values">
+        <null name="name"/>
+        <value name="itemType">SERVICES</value>
+        <record name="serviceInfo" javaclass="com.wm.util.Values">
+          <value name="groupDisplayName">Utils</value>
+          <value name="groupName">utils</value>
+          <null name="services"/>
+        </record>
+        <record name="serviceName" javaclass="com.wm.util.Values">
+          <value name="displayName">generateUUID</value>
+          <value name="serviceName">pub.utils:generateUUID</value>
+          <value name="transformerSupport">true</value>
+        </record>
+        <number name="ui_step_index" type="Long">1</number>
+        <number name="nodeIndex" type="Long">0</number>
+      </record>
+      <record name="/1" javaclass="com.wm.util.Values">
         <value name="itemType">CONTROLS</value>
         <value name="name">IF</value>
         <record name="config" javaclass="com.wm.util.Values">
@@ -390,19 +406,19 @@
           <Boolean name="resetOnfocusout">true</Boolean>
           <Boolean name="displayIcon">true</Boolean>
         </record>
-        <number name="nodeIndex" type="Long">0</number>
+        <number name="nodeIndex" type="Long">1</number>
       </record>
-      <record name="/0/0" javaclass="com.wm.util.Values">
+      <record name="/1/0" javaclass="com.wm.util.Values">
         <value name="name">IF</value>
         <value name="itemType">CONTROLS</value>
         <number name="nodeIndex" type="Long">0</number>
       </record>
-      <record name="/0/0/0" javaclass="com.wm.util.Values">
+      <record name="/1/0/0" javaclass="com.wm.util.Values">
         <value name="itemType">CONTROLS</value>
         <value name="name">THROWERROR</value>
         <number name="nodeIndex" type="Long">0</number>
       </record>
-      <record name="/1" javaclass="com.wm.util.Values">
+      <record name="/2" javaclass="com.wm.util.Values">
         <value name="itemType">APPS</value>
         <value name="id">com.wm.adapter.wmjdbc.JDBCAdapter</value>
         <value name="name">Database</value>
@@ -449,11 +465,11 @@
         <value name="connectionType">webMethods Adapter for JDBC ExtendedConnection</value>
         <Boolean name="accountReferenceResolved">true</Boolean>
         <number name="ui_step_index" type="Long">3</number>
-        <number name="nodeIndex" type="Long">1</number>
+        <number name="nodeIndex" type="Long">2</number>
         <Boolean name="xmlMapsetSupported">true</Boolean>
         <null name="outputMapSet"/>
       </record>
-      <record name="/2" javaclass="com.wm.util.Values">
+      <record name="/3" javaclass="com.wm.util.Values">
         <value name="itemType">CONTROLS</value>
         <value name="name">IF</value>
         <record name="config" javaclass="com.wm.util.Values">
@@ -466,14 +482,14 @@
           <Boolean name="resetOnfocusout">true</Boolean>
           <Boolean name="displayIcon">true</Boolean>
         </record>
-        <number name="nodeIndex" type="Long">2</number>
+        <number name="nodeIndex" type="Long">3</number>
       </record>
-      <record name="/2/0" javaclass="com.wm.util.Values">
+      <record name="/3/0" javaclass="com.wm.util.Values">
         <value name="name">IF</value>
         <value name="itemType">CONTROLS</value>
         <number name="nodeIndex" type="Long">0</number>
       </record>
-      <record name="/2/0/0" javaclass="com.wm.util.Values">
+      <record name="/3/0/0" javaclass="com.wm.util.Values">
         <value name="itemType">CONTROLS</value>
         <value name="name">TRANSFORM</value>
         <number name="ui_step_index" type="Long">5</number>
@@ -489,13 +505,13 @@
         <array name="lookupTransformer" type="object" depth="1">
         </array>
       </record>
-      <null name="/2/0/0/0"/>
-      <record name="/2/1" javaclass="com.wm.util.Values">
+      <null name="/3/0/0/0"/>
+      <record name="/3/1" javaclass="com.wm.util.Values">
         <value name="name">ELSE</value>
         <value name="itemType">CONTROLS</value>
         <number name="nodeIndex" type="Long">0</number>
       </record>
-      <record name="/2/1/0" javaclass="com.wm.util.Values">
+      <record name="/3/1/0" javaclass="com.wm.util.Values">
         <value name="itemType">CONTROLS</value>
         <value name="name">TRANSFORM</value>
         <number name="ui_step_index" type="Long">7</number>
@@ -511,8 +527,8 @@
         <array name="lookupTransformer" type="object" depth="1">
         </array>
       </record>
-      <null name="/2/1/0/0"/>
-      <record name="/3" javaclass="com.wm.util.Values">
+      <null name="/3/1/0/0"/>
+      <record name="/4" javaclass="com.wm.util.Values">
         <null name="name"/>
         <value name="itemType">PACKAGES</value>
         <record name="serviceInfo" javaclass="com.wm.util.Values">
@@ -528,15 +544,15 @@
         <null name="outputMapSet"/>
         <null name="mapSet"/>
         <number name="ui_step_index" type="Long">6</number>
-        <number name="nodeIndex" type="Long">4</number>
+        <number name="nodeIndex" type="Long">5</number>
         <Boolean name="allowCustomOperations">true</Boolean>
         <Boolean name="serviceReferenceResolved">true</Boolean>
       </record>
-      <record name="/4" javaclass="com.wm.util.Values">
+      <record name="/5" javaclass="com.wm.util.Values">
         <value name="itemType">CONTROLS</value>
         <value name="name">TRANSFORM</value>
         <number name="ui_step_index" type="Long">9</number>
-        <number name="nodeIndex" type="Long">5</number>
+        <number name="nodeIndex" type="Long">6</number>
         <array name="map" type="object" depth="1">
         </array>
         <array name="mapSet" type="object" depth="1">
@@ -548,7 +564,7 @@
         <array name="lookupTransformer" type="object" depth="1">
         </array>
       </record>
-      <record name="/4/0" javaclass="com.wm.util.Values">
+      <record name="/5/0" javaclass="com.wm.util.Values">
         <value name="itemType">SERVICES</value>
         <Boolean name="serviceReferenceResolved">true</Boolean>
         <record name="serviceName" javaclass="com.wm.util.Values">
@@ -563,7 +579,7 @@
         <array name="mapSet" type="object" depth="1">
         </array>
       </record>
-      <record name="/4/1" javaclass="com.wm.util.Values">
+      <record name="/5/1" javaclass="com.wm.util.Values">
         <value name="itemType">SERVICES</value>
         <Boolean name="serviceReferenceResolved">true</Boolean>
         <record name="serviceName" javaclass="com.wm.util.Values">
@@ -578,7 +594,7 @@
         <array name="mapSet" type="object" depth="1">
         </array>
       </record>
-      <record name="/5" javaclass="com.wm.util.Values">
+      <record name="/6" javaclass="com.wm.util.Values">
         <value name="itemType">CONTROLS</value>
         <value name="name">IF</value>
         <record name="config" javaclass="com.wm.util.Values">
@@ -591,14 +607,14 @@
           <Boolean name="resetOnfocusout">true</Boolean>
           <Boolean name="displayIcon">true</Boolean>
         </record>
-        <number name="nodeIndex" type="Long">6</number>
+        <number name="nodeIndex" type="Long">7</number>
       </record>
-      <record name="/5/0" javaclass="com.wm.util.Values">
+      <record name="/6/0" javaclass="com.wm.util.Values">
         <value name="name">IF</value>
         <value name="itemType">CONTROLS</value>
         <number name="nodeIndex" type="Long">0</number>
       </record>
-      <record name="/5/0/0" javaclass="com.wm.util.Values">
+      <record name="/6/0/0" javaclass="com.wm.util.Values">
         <value name="itemType">APPS</value>
         <value name="id">com.wm.adapter.wmjdbc.JDBCAdapter</value>
         <value name="name">Database</value>
@@ -649,12 +665,29 @@
         <Boolean name="xmlMapsetSupported">true</Boolean>
         <null name="outputMapSet"/>
       </record>
-      <record name="/5/1" javaclass="com.wm.util.Values">
+      <record name="/6/0/1" javaclass="com.wm.util.Values">
+        <value name="itemType">CONTROLS</value>
+        <value name="name">TRANSFORM</value>
+        <number name="ui_step_index" type="Long">12</number>
+        <number name="nodeIndex" type="Long">1</number>
+        <array name="map" type="object" depth="1">
+        </array>
+        <array name="mapSet" type="object" depth="1">
+        </array>
+        <array name="mapDelete" type="object" depth="1">
+        </array>
+        <array name="transformer" type="object" depth="1">
+        </array>
+        <array name="lookupTransformer" type="object" depth="1">
+        </array>
+      </record>
+      <null name="/6/0/1/0"/>
+      <record name="/6/1" javaclass="com.wm.util.Values">
         <value name="name">ELSE</value>
         <value name="itemType">CONTROLS</value>
         <number name="nodeIndex" type="Long">0</number>
       </record>
-      <record name="/5/1/0" javaclass="com.wm.util.Values">
+      <record name="/6/1/0" javaclass="com.wm.util.Values">
         <value name="itemType">APPS</value>
         <value name="id">com.wm.adapter.wmjdbc.JDBCAdapter</value>
         <value name="name">Database</value>
@@ -705,11 +738,11 @@
         <Boolean name="xmlMapsetSupported">true</Boolean>
         <null name="outputMapSet"/>
       </record>
-      <record name="/6" javaclass="com.wm.util.Values">
+      <record name="/6/1/1" javaclass="com.wm.util.Values">
         <value name="itemType">CONTROLS</value>
         <value name="name">TRANSFORM</value>
-        <number name="ui_step_index" type="Long">14</number>
-        <number name="nodeIndex" type="Long">8</number>
+        <number name="ui_step_index" type="Long">15</number>
+        <number name="nodeIndex" type="Long">1</number>
         <array name="map" type="object" depth="1">
         </array>
         <array name="mapSet" type="object" depth="1">
@@ -721,52 +754,95 @@
         <array name="lookupTransformer" type="object" depth="1">
         </array>
       </record>
-      <record name="/6/0" javaclass="com.wm.util.Values">
+      <null name="/6/1/1/0"/>
+      <record name="/7" javaclass="com.wm.util.Values">
+        <null name="name"/>
+        <value name="itemType">PACKAGES</value>
+        <record name="serviceInfo" javaclass="com.wm.util.Values">
+          <value name="groupDisplayName">sttKafka</value>
+          <value name="groupName">sttKafka;1.0</value>
+          <null name="services"/>
+        </record>
+        <record name="serviceName" javaclass="com.wm.util.Values">
+          <value name="description">sttKafka.services.producer:produceAccountUpdateEvent</value>
+          <value name="serviceName">sttKafka.services.producer:produceAccountUpdateEvent</value>
+          <value name="displayName">produceAccountUpdateEvent</value>
+        </record>
+        <null name="outputMapSet"/>
+        <null name="mapSet"/>
+        <number name="ui_step_index" type="Long">17</number>
+        <number name="nodeIndex" type="Long">9</number>
       </record>
-      <record name="/6/1" javaclass="com.wm.util.Values">
+      <record name="/8" javaclass="com.wm.util.Values">
+        <value name="itemType">CONTROLS</value>
+        <value name="name">TRANSFORM</value>
+        <number name="ui_step_index" type="Long">18</number>
+        <number name="nodeIndex" type="Long">10</number>
+        <array name="map" type="object" depth="1">
+        </array>
+        <array name="mapSet" type="object" depth="1">
+        </array>
+        <array name="mapDelete" type="object" depth="1">
+        </array>
+        <array name="transformer" type="object" depth="1">
+        </array>
+        <array name="lookupTransformer" type="object" depth="1">
+        </array>
       </record>
-      <record name="/6/2" javaclass="com.wm.util.Values">
+      <record name="/8/0" javaclass="com.wm.util.Values">
       </record>
-      <record name="/6/3" javaclass="com.wm.util.Values">
+      <record name="/8/1" javaclass="com.wm.util.Values">
       </record>
-      <record name="/6/4" javaclass="com.wm.util.Values">
+      <record name="/8/2" javaclass="com.wm.util.Values">
       </record>
-      <record name="/6/5" javaclass="com.wm.util.Values">
+      <record name="/8/3" javaclass="com.wm.util.Values">
       </record>
-      <record name="/6/6" javaclass="com.wm.util.Values">
+      <record name="/8/4" javaclass="com.wm.util.Values">
       </record>
-      <record name="/6/7" javaclass="com.wm.util.Values">
+      <record name="/8/5" javaclass="com.wm.util.Values">
       </record>
-      <record name="/6/8" javaclass="com.wm.util.Values">
+      <record name="/8/6" javaclass="com.wm.util.Values">
       </record>
-      <record name="/6/9" javaclass="com.wm.util.Values">
+      <record name="/8/7" javaclass="com.wm.util.Values">
       </record>
-      <record name="/6/10" javaclass="com.wm.util.Values">
+      <record name="/8/8" javaclass="com.wm.util.Values">
       </record>
-      <record name="/6/11" javaclass="com.wm.util.Values">
+      <record name="/8/9" javaclass="com.wm.util.Values">
       </record>
-      <record name="/6/12" javaclass="com.wm.util.Values">
+      <record name="/8/10" javaclass="com.wm.util.Values">
       </record>
-      <record name="/6/13" javaclass="com.wm.util.Values">
+      <record name="/8/11" javaclass="com.wm.util.Values">
       </record>
-      <record name="/6/14" javaclass="com.wm.util.Values">
+      <record name="/8/12" javaclass="com.wm.util.Values">
       </record>
-      <record name="/6/15" javaclass="com.wm.util.Values">
+      <record name="/8/13" javaclass="com.wm.util.Values">
       </record>
-      <record name="/6/16" javaclass="com.wm.util.Values">
+      <record name="/8/14" javaclass="com.wm.util.Values">
       </record>
-      <record name="/6/17" javaclass="com.wm.util.Values">
+      <record name="/8/15" javaclass="com.wm.util.Values">
       </record>
-      <record name="/6/18" javaclass="com.wm.util.Values">
+      <record name="/8/16" javaclass="com.wm.util.Values">
       </record>
-      <record name="/6/19" javaclass="com.wm.util.Values">
+      <record name="/8/17" javaclass="com.wm.util.Values">
       </record>
-      <record name="/6/20" javaclass="com.wm.util.Values">
+      <record name="/8/18" javaclass="com.wm.util.Values">
       </record>
-      <null name="/6/21"/>
-      <record name="/6/22" javaclass="com.wm.util.Values">
+      <record name="/8/19" javaclass="com.wm.util.Values">
       </record>
-      <record name="/6/23" javaclass="com.wm.util.Values">
+      <record name="/8/20" javaclass="com.wm.util.Values">
+      </record>
+      <record name="/8/21" javaclass="com.wm.util.Values">
+      </record>
+      <record name="/8/22" javaclass="com.wm.util.Values">
+      </record>
+      <null name="/8/23"/>
+      <record name="/8/24" javaclass="com.wm.util.Values">
+      </record>
+      <record name="/8/25" javaclass="com.wm.util.Values">
+      </record>
+      <record name="/8/26" javaclass="com.wm.util.Values">
+      </record>
+      <record name="/8/27" javaclass="com.wm.util.Values">
       </record>
     </record>
   </record>
