@@ -66,7 +66,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">demouser</value>
-    <value name="lastModifiedDate">1711008536540</value>
+    <value name="lastModifiedDate">1711008786602</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
       <value name="id">0d435369fb244ece9df04b75343f8974</value>
       <value name="group">default</value>
@@ -91,6 +91,9 @@
         </record>
         <null name="outputMapSet"/>
         <null name="mapSet"/>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
+        <number name="ui_step_index" type="Long">1</number>
+        <number name="nodeIndex" type="Long">0</number>
       </record>
     </record>
   </record>
