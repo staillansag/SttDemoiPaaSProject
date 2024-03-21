@@ -20,6 +20,11 @@ packages:
   gitUrl: https://github.com/staillansag
   gitUsername: staillansag
   gitBranch: main
+- name: sttMessaging
+  gitServerName: stt_gh
+  gitUrl: https://github.com/staillansag
+  gitUsername: staillansag
+  gitBranch: master
 services:
 - serviceName: project.sttdemoipaas.integrations:upsertContact
   packages:
@@ -34,6 +39,8 @@ services:
   - name: SttDemoiPaaSProject
     version: "1.0"
   - name: sttUtils
+    version: "1.0"
+  - name: sttKafka
     version: "1.0"
 - serviceName: project.sttdemoipaas.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:SQLEdgeLocalNoTransaction
   packages:
@@ -81,6 +88,8 @@ services:
     version: "1.0"
   - name: sttUtils
     version: "1.0"
+  - name: sttKafka
+    version: "1.0"
 - serviceName: project.sttdemoipaas.integrations:updateAccount
   packages:
   - name: SttDemoiPaaSProject
@@ -93,9 +102,29 @@ services:
     version: "1.0"
   - name: sttUtils
     version: "1.0"
+  - name: sttKafka
+    version: "1.0"
 - serviceName: project.sttdemoipaas.integrations:upsertAccount
   packages:
   - name: SttDemoiPaaSProject
+    version: "1.0"
+  - name: sttUtils
+    version: "1.0"
+  - name: sttKafka
+    version: "1.0"
+- serviceName: pub.utils:generateUUID
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.741
+- serviceName: sttKafka.services.producer:produceAccountUpdateEvent
+  packages:
+  - name: sttKafka
+    version: "1.0"
+- serviceName: pub.streaming:send
+  packages:
+  - name: SttDemoiPaaSProject
+    version: "1.0"
+  - name: sttKafka
     version: "1.0"
   - name: sttUtils
     version: "1.0"
