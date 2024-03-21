@@ -45,14 +45,13 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">demouser</value>
-    <value name="createdDate">1711030420424</value>
-    <value name="lastModifiedDate">1711030420424</value>
+    <value name="lastModifiedBy">demouser</value>
+    <value name="lastModifiedDate">1711030452616</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
-      <value name="id">0d435369fb244ece9df04b75343f8974</value>
+      <value name="id">cfafebd5d07541738be9c556911b6bcf</value>
       <value name="group">default</value>
-      <value name="name">FR_STT_Development</value>
-      <value name="executionPlaneType">onprem</value>
+      <value name="name">Cloud Runtime</value>
+      <value name="executionPlaneType">cloud</value>
     </record>
     <value name="displayName">otherTest</value>
     <value name="description"></value>
@@ -72,6 +71,7 @@
         </record>
         <null name="outputMapSet"/>
         <null name="mapSet"/>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
       </record>
     </record>
   </record>
